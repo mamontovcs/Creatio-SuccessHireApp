@@ -48,6 +48,28 @@
       "Row": [
         {
           "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "6d3b52f4-cef8-4b71-9352-3b7f47a0a3f8"
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "d10e09d0-b885-4dbb-8afd-f16a497369c1",
+          "DisplayValue": "Success hire"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "ebf36756-7854-4169-b2cc-8bc0ea25f391",
+          "DisplayValue": "Employees"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 112
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
           "Value": "8690ff55-515d-495c-a4c5-7a68d0721a70"
         },
         {
