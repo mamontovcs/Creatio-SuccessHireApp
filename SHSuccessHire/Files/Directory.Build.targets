@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/SHSuccessHire/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/SHSuccessHire/Data/**" />
+		<Compile Remove="$(PkgPath)/SHSuccessHire/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/SHSuccessHire/Schemas\**" />
+		<Compile Remove="$(PkgPath)/SHSuccessHire/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/SHSuccessHire/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/SHSuccessHire/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/SHSuccessHire/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/SHSuccessHire/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/SHSuccessHire/Resources/**" />
+		<None Remove="$(PkgPath)/SHSuccessHire/Assemblies/**" />
+		<None Remove="$(PkgPath)/SHSuccessHire/Data/**" />
+		<None Remove="$(PkgPath)/SHSuccessHire/SqlScripts/**" />
+		<None Remove="$(PkgPath)/SHSuccessHire/Schemas/**" />
+		<None Remove="$(PkgPath)/SHSuccessHire/Resources/**" />
+  </ItemGroup>
+</Project>

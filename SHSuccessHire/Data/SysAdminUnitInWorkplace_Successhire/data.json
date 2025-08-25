@@ -1,0 +1,40 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "34e7fa60-552b-42c6-85fb-c615fee8b81b"
+        },
+        {
+          "SchemaColumnUId": "b96bb4ca-a133-44f1-aa7d-24495d89e278",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "d5cfaf4a-0900-4ef9-aee8-2ede7f9d97fb",
+          "Value": "d10e09d0-b885-4dbb-8afd-f16a497369c1",
+          "DisplayValue": "Success hire"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "ee5a980c-c83b-49bf-9662-9a1c6fb6871d"
+        },
+        {
+          "SchemaColumnUId": "b96bb4ca-a133-44f1-aa7d-24495d89e278",
+          "Value": "83a43ebc-f36b-1410-298d-001e8c82bcad",
+          "DisplayValue": "System administrators"
+        },
+        {
+          "SchemaColumnUId": "d5cfaf4a-0900-4ef9-aee8-2ede7f9d97fb",
+          "Value": "d10e09d0-b885-4dbb-8afd-f16a497369c1",
+          "DisplayValue": "Success hire"
+        }
+      ]
+    }
+  ]
+}
