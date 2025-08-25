@@ -43,7 +43,7 @@ define("SHCandidates_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 							"code": "PDS_CreatedBy",
 							"caption": "#ResourceString(PDS_CreatedBy)#",
 							"dataValueType": 10
-						},
+						}
 					]
 				}
 			},
@@ -65,6 +65,51 @@ define("SHCandidates_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
+			{
+				"operation": "merge",
+				"path": [
+					"attributes"
+				],
+				"values": {
+					"Items_PredefinedFilter": {
+						"value": {
+							"items": {
+								"9ddc923b-8d6b-4a3e-8095-64cae4d81e4c": {
+									"filterType": 4,
+									"comparisonType": 3,
+									"isEnabled": true,
+									"trimDateTimeParameterToDate": false,
+									"leftExpression": {
+										"expressionType": 0,
+										"columnPath": "Type"
+									},
+									"isAggregative": false,
+									"dataValueType": 10,
+									"referenceSchemaName": "ContactType",
+									"rightExpressions": [
+										{
+											"expressionType": 2,
+											"parameter": {
+												"dataValueType": 10,
+												"value": {
+													"Name": "Candidate",
+													"Id": "4849e68c-faa1-4c2c-8cb7-85e08ba25dcf",
+													"value": "4849e68c-faa1-4c2c-8cb7-85e08ba25dcf",
+													"displayValue": "Candidate"
+												}
+											}
+										}
+									]
+								}
+							},
+							"logicalOperation": 0,
+							"isEnabled": true,
+							"filterType": 6,
+							"rootSchemaName": "Contact"
+						}
+					}
+				}
+			},
 			{
 				"operation": "merge",
 				"path": [
