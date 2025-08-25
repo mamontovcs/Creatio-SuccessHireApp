@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "f20956f5-058b-4e06-bebe-8f7790c0bd88",
+    "Name": "SHInterviews_ListPage",
+    "ModifiedOnUtc": "\/Date(1756127668000)\/",
+    "Parent": {
+      "UId": "b7b898d0-8c77-4953-c097-23fa6800da02",
+      "Name": "ListPageV3Template"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Interviews list page",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "120c55f4-0df9-4c96-9bf4-1f4e2f13e352",
+    "Name": "SHInterviews_Detail",
+    "ModifiedOnUtc": "\/Date(1756127668000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Interviews detail",
+    "DependsOn": []
+  }
+}

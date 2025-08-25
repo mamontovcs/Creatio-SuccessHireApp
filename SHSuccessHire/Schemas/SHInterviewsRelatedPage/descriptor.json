@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "95f58fb1-5352-41ae-a8f8-55d12cef4eb6",
+    "Name": "SHInterviewsRelatedPage",
+    "ModifiedOnUtc": "\/Date(1756127668000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Interviews (Page settings)",
+    "DependsOn": []
+  }
+}

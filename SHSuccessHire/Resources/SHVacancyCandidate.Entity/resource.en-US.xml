@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="VacancyCandidate" />
+			<Item Name="Columns.SHCandidate.Caption" Value="Candidate" />
+			<Item Name="Columns.SHVacancy.Caption" Value="Vacancy" />
+			<Item Name="EventsProcessSchema.Caption" Value="Business process" />
+		</Items>
+	</Group>
+</Resources>

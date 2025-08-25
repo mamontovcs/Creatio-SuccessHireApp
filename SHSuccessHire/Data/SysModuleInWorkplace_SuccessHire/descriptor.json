@@ -1,8 +1,8 @@
 ﻿{
   "Descriptor": {
-    "UId": "c758c43d-e090-4efe-afb7-a6109f96721b",
-    "Name": "SysModuleInWorkplace_SHVacancies",
-    "ModifiedOnUtc": "\/Date(1756123926000)\/",
+    "UId": "a5ff1216-d827-c2ce-b10b-46f4bd63b62a",
+    "Name": "SysModuleInWorkplace_SuccessHire",
+    "ModifiedOnUtc": "\/Date(1756127966000)\/",
     "InstallType": 0,
     "Schema": {
       "UId": "a8b20179-02be-4a13-8908-9fc51cb9f66d",
@@ -17,13 +17,6 @@
         "DataTypeValueUId": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
       },
       {
-        "ColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
-        "IsForceUpdate": false,
-        "IsKey": false,
-        "ColumnName": "SysModule",
-        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
-      },
-      {
         "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
         "IsForceUpdate": false,
         "IsKey": true,
@@ -35,6 +28,13 @@
         "IsForceUpdate": false,
         "IsKey": false,
         "ColumnName": "SysWorkplace",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SysModule",
         "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
       }
     ]

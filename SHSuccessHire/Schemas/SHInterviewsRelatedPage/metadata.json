@@ -1,0 +1,28 @@
+{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "95f58fb1-5352-41ae-a8f8-55d12cef4eb6",
+      "A2": "SHInterviewsRelatedPage",
+      "A5": "6f71e54c-1960-40c9-94f6-073fd67699ab",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2",
+      "B8": "0.0.0.0",
+      "AD1": "4767e2ff-b79e-472e-8d8d-e7a15c060759",
+      "AD2": "EntitySchemaManager",
+      "AD3": "RelatedPage",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+        "Pages": [
+          {
+            "UId": "7c3fa85e-a588-42f1-8fe4-6097bd416706",
+            "PageSchemaUId": "482cca5b-33a6-4b9e-acd0-de3ca902d8ef",
+            "IsDefault": true
+          }
+        ]
+      }
+    }
+  }
+}

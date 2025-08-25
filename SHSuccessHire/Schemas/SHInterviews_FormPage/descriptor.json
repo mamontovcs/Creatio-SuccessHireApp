@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "482cca5b-33a6-4b9e-acd0-de3ca902d8ef",
+    "Name": "SHInterviews_FormPage",
+    "ModifiedOnUtc": "\/Date(1756127668000)\/",
+    "Parent": {
+      "UId": "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9",
+      "Name": "PageWithTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Interviews form page",
+    "DependsOn": []
+  }
+}

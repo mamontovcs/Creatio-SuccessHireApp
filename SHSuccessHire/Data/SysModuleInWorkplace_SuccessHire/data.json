@@ -1,0 +1,70 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "3910a462-3f8a-41d9-8994-9fc5876a692b"
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "d10e09d0-b885-4dbb-8afd-f16a497369c1",
+          "DisplayValue": "Success hire"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "23b08415-5bd1-4cfd-a439-be382067e462",
+          "DisplayValue": "Interviews"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 2
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "490cb633-65e0-42a8-9639-89f495e20cae"
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "d10e09d0-b885-4dbb-8afd-f16a497369c1",
+          "DisplayValue": "Success hire"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "d5fe0983-2e2e-4a03-b626-4f9698abbfac",
+          "DisplayValue": "Candidates"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 0
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "8690ff55-515d-495c-a4c5-7a68d0721a70"
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "d10e09d0-b885-4dbb-8afd-f16a497369c1",
+          "DisplayValue": "Success hire"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "4012f5c8-1b1a-42a6-b79c-a6b0e82c7837",
+          "DisplayValue": "Vacancies"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 1
+        }
+      ]
+    }
+  ]
+}

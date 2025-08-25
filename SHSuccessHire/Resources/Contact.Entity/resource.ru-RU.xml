@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Кандидат" />
+			<Item Name="Columns.AdCampaign.Caption" Value="Рекламная кампания" />
+			<Item Name="Columns.Channel.Caption" Value="Канал" />
+			<Item Name="Columns.CustomerNeed.Caption" Value="Тип потребности" />
+			<Item Name="Columns.IsNonActualEmail.Caption" Value="Email не актуальный" />
+			<Item Name="Columns.LeadConversionScore.Caption" Value="Рейтинг перевода в Лид" />
+			<Item Name="Columns.RegisterMethod.Caption" Value="Способ регистрации" />
+			<Item Name="Columns.Source.Caption" Value="Источник" />
+			<Item Name="EventsProcessSchema.BaseElements.SynchronizeAnniversary.Parameters.ChildEntitySchemaUId.Caption" Value="Подчиненный объект" />
+			<Item Name="EventsProcessSchema.BaseElements.SynchronizeAnniversary.Parameters.DefaultValues.Caption" Value="Значения по умолчанию для колонок подчиненного объекта" />
+			<Item Name="EventsProcessSchema.BaseElements.SynchronizeAnniversary.Parameters.DeletingFilters.Caption" Value="Фильтр удаления записей" />
+			<Item Name="EventsProcessSchema.BaseElements.SynchronizeAnniversary.Parameters.MappingColumns.Caption" Value="Связь между колонками родительского и подчиненного объектов" />
+			<Item Name="EventsProcessSchema.BaseElements.SynchronizeAnniversary.Parameters.MultiRowsSearchFilters.Caption" Value="Фильтр выбора нескольких строк" />
+			<Item Name="EventsProcessSchema.BaseElements.SynchronizeAnniversary.Parameters.RequiredAllFields.Caption" Value="Все поля обязательны" />
+			<Item Name="EventsProcessSchema.BaseElements.SynchronizeAnniversary.Parameters.RequiredFields.Caption" Value="Обязательные поля дочернего объекта" />
+			<Item Name="EventsProcessSchema.BaseElements.SynchronizeAnniversary.Parameters.SingleRowSearchFilters.Caption" Value="Фильтр выбора одной строки" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,8 @@
+= MetaData.Schema.UId "482cca5b-33a6-4b9e-acd0-de3ca902d8ef"
+= MetaData.Schema.A2 "SHInterviews_FormPage"
+= MetaData.Schema.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
+~ MetaData.Schema.B2 ["29c68641-653d-48c2-a379-5f72644172c4","155ca9bf-25d3-4fa9-8808-0a5db50dadf4","6baac19e-9a58-4903-b372-2a6e456400c8","17f27e8c-3ff7-4c7e-9418-925b1c834bac"]
+= MetaData.Schema.B6 "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2"
+= MetaData.Schema.HD1 "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9"
+- MetaData.Schema.B7
++ MetaData.Schema.B7 false
