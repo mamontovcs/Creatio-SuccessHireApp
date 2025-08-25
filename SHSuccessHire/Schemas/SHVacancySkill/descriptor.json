@@ -1,14 +1,14 @@
 ﻿{
   "Descriptor": {
-    "UId": "86ff65b3-1986-4422-84e8-6b394c177597",
-    "Name": "SHVacancyCandidate",
-    "ModifiedOnUtc": "\/Date(1756132605000)\/",
+    "UId": "6f9e0583-5cf4-4cc8-a07f-b7567400418e",
+    "Name": "SHVacancySkill",
+    "ModifiedOnUtc": "\/Date(1756132882000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "VacancyCandidate",
+    "Caption": "VacancySkill",
     "DependsOn": []
   }
 }

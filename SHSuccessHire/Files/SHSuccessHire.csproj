@@ -780,9 +780,13 @@
 	<ItemGroup Label="Standalone package external assembly references" />
 	<ItemGroup Label="Entity Files">
 		<Compile Remove="$(RelativePkgFolderPath)/SHSuccessHire/Schemas/Contact/Contact.cs" Condition="Exists('$(RelativePkgFolderPath)/SHSuccessHire/Schemas/Contact/Contact.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHCandidateSkill/SHCandidateSkill.cs" Condition="Exists('$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHCandidateSkill/SHCandidateSkill.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHCandidateStatus/SHCandidateStatus.cs" Condition="Exists('$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHCandidateStatus/SHCandidateStatus.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHInterview/SHInterview.cs" Condition="Exists('$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHInterview/SHInterview.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHSkill/SHSkill.cs" Condition="Exists('$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHSkill/SHSkill.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHVacancy/SHVacancy.cs" Condition="Exists('$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHVacancy/SHVacancy.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHVacancyCandidate/SHVacancyCandidate.cs" Condition="Exists('$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHVacancyCandidate/SHVacancyCandidate.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHVacancySkill/SHVacancySkill.cs" Condition="Exists('$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHVacancySkill/SHVacancySkill.cs')" />
 	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">

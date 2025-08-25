@@ -1,10 +1,10 @@
-= MetaData.Schema.UId "86ff65b3-1986-4422-84e8-6b394c177597"
-= MetaData.Schema.A2 "SHVacancyCandidate"
+= MetaData.Schema.UId "6f9e0583-5cf4-4cc8-a07f-b7567400418e"
+= MetaData.Schema.A2 "SHVacancySkill"
 = MetaData.Schema.A5 "103d2416-f2e6-45b7-bd2a-d0eda3f808ed"
 = MetaData.Schema.B6 "857128e6-ca86-46e1-828b-296570709f85"
 = MetaData.Schema.B8 "8.3.0.3074"
-= MetaData.Schema.EG1.UId "209a33e2-3945-4311-ac72-510ed357c739"
-= MetaData.Schema.EG1.A2 "SHEntity_e2dd6feEventsProcess"
+= MetaData.Schema.EG1.UId "9500c939-0ed3-45b0-a69b-8d438699b16c"
+= MetaData.Schema.EG1.A2 "SHEntity_f3e2e12EventsProcess"
 = MetaData.Schema.EG1.A5 "103d2416-f2e6-45b7-bd2a-d0eda3f808ed"
 + MetaData.Schema.EG1.B8 "8.3.0.3074"
 = MetaData.Schema.EG1.BK8 "7bb7d6a5-e7a3-4837-83bc-7f785d688165"
@@ -18,37 +18,38 @@
 = MetaData.Schema.EG1.BK4.["8140d7e7-fb91-4999-8347-543345440efb"].CK2.["c803a450-c8dc-47a4-b704-7125c23db317"].BL7 "53818048-7868-48f6-ada0-0ebaa65af628"
 = MetaData.Schema.EG1.JC1 []
 = MetaData.Schema.D8 "1bab9dcf-17d5-49f8-9536-8e0064f1dce0"
++ MetaData.Schema.D29 "null"
++ MetaData.Schema.D30 "null"
++ MetaData.Schema.D31 "null"
 + MetaData.Schema.D2 {
-  "UId": "e8b47208-3fde-ef6b-caf0-7f8c962c2e10",
-  "A2": "SHCandidate",
-  "A3": "86ff65b3-1986-4422-84e8-6b394c177597",
-  "A4": "86ff65b3-1986-4422-84e8-6b394c177597",
-  "A5": "103d2416-f2e6-45b7-bd2a-d0eda3f808ed",
-  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
-  "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
-  "E2": 1,
-  "E6": true,
-  "E20": true,
-  "E17": "SHCandidateId",
-  "E18": "SHCandidateName"
-}
-+ MetaData.Schema.D2 {
-  "UId": "a186a0c2-c1b4-b00a-0827-bc78d73c878b",
+  "UId": "37d5512b-b006-f1cf-bacc-7d3fd828f390",
   "A2": "SHVacancy",
-  "A3": "86ff65b3-1986-4422-84e8-6b394c177597",
-  "A4": "86ff65b3-1986-4422-84e8-6b394c177597",
+  "A3": "6f9e0583-5cf4-4cc8-a07f-b7567400418e",
+  "A4": "6f9e0583-5cf4-4cc8-a07f-b7567400418e",
   "A5": "103d2416-f2e6-45b7-bd2a-d0eda3f808ed",
   "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
   "S4": "aeff1296-fe4f-4676-bca2-17f8e59fe3d1",
-  "E2": 1,
   "E6": true,
   "E20": true,
   "E17": "SHVacancyId",
   "E18": "SHVacancySHTitle"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","e8b47208-3fde-ef6b-caf0-7f8c962c2e10","a186a0c2-c1b4-b00a-0827-bc78d73c878b"]
-= MetaData.Schema.D20.A2 "SHVacancyCandidateEvents"
-= MetaData.Schema.D36.A3 "86ff65b3-1986-4422-84e8-6b394c177597"
++ MetaData.Schema.D2 {
+  "UId": "7d04415d-863a-505c-9ade-58e89b1de6f4",
+  "A2": "SHSkill",
+  "A3": "6f9e0583-5cf4-4cc8-a07f-b7567400418e",
+  "A4": "6f9e0583-5cf4-4cc8-a07f-b7567400418e",
+  "A5": "103d2416-f2e6-45b7-bd2a-d0eda3f808ed",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "dc28abcc-eb63-450b-8a34-94d7fea36838",
+  "E6": true,
+  "E20": true,
+  "E17": "SHSkillId",
+  "E18": "SHSkillName"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","37d5512b-b006-f1cf-bacc-7d3fd828f390","7d04415d-863a-505c-9ade-58e89b1de6f4"]
+= MetaData.Schema.D20.A2 "SHVacancySkillEvents"
+= MetaData.Schema.D36.A3 "6f9e0583-5cf4-4cc8-a07f-b7567400418e"
 = MetaData.Schema.D36.BS1 false
 - MetaData.Schema.EG1.B6
 - MetaData.Schema.EG1.BK29
