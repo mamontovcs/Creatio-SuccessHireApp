@@ -3,7 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Vacancy" />
-			<Item Name="Columns.SHTitle.Caption" Value="SHTitle" />
+			<Item Name="Columns.SHTitle.Caption" Value="Title" />
 		</Items>
 	</Group>
 </Resources>
