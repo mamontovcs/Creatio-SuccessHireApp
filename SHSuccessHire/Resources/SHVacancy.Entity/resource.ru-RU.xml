@@ -2,7 +2,7 @@
 <Resources Culture="ru-RU">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Вакансия" />
+			<Item Name="Columns.SHAccount.Caption" Value="Контрагент" />
 			<Item Name="Columns.SHTitle.Caption" Value="Название" />
 		</Items>
 	</Group>
