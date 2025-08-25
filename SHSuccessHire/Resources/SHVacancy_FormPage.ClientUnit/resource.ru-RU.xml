@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Vacancy form page" />
 			<Item Name="LocalizableStrings.FeedTabContainer_caption.Value" Value="Лента" />
+			<Item Name="LocalizableStrings.StartSearchButton_caption.Value" Value="Запустить поиск" />
 		</Items>
 	</Group>
 </Resources>

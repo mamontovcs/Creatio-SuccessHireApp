@@ -2,6 +2,21 @@ define("SHVacancy_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 	return {
 		viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
 			{
+				"operation": "remove",
+				"name": "CardToolsContainer"
+			},
+			{
+				"operation": "remove",
+				"name": "TagSelect"
+			},
+			{
+				"operation": "move",
+				"name": "CardButtonToggleGroup",
+				"parentName": "MainHeaderBottom",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
 				"operation": "merge",
 				"name": "CardContentWrapper",
 				"values": {
@@ -122,6 +137,34 @@ define("SHVacancy_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 			{
 				"operation": "remove",
 				"name": "FeedTabContainerHeaderLabel"
+			},
+			{
+				"operation": "insert",
+				"name": "StartSearchButton",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(StartSearchButton_caption)#",
+					"color": "accent",
+					"disabled": false,
+					"size": "large",
+					"iconPosition": "left-icon",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "SHSearchCandidates",
+							"processRunType": "ForTheSelectedPage",
+							"saveAtProcessStart": true,
+							"showNotification": true,
+							"recordIdProcessParameterName": "Vacancy"
+						}
+					},
+					"clickMode": "default",
+					"icon": "send-test-email-icon"
+				},
+				"parentName": "ActionButtonsContainer",
+				"propertyName": "items",
+				"index": 1
 			},
 			{
 				"operation": "insert",

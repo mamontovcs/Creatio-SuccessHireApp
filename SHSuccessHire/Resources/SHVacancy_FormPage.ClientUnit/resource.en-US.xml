@@ -5,6 +5,7 @@
 			<Item Name="Caption" Value="Vacancy form page" />
 			<Item Name="LocalizableStrings.addRecord_ff4vxq8_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.FeedTabContainer_caption.Value" Value="Skills" />
+			<Item Name="LocalizableStrings.StartSearchButton_caption.Value" Value="Start search" />
 		</Items>
 	</Group>
 </Resources>

@@ -4,6 +4,28 @@
       "Row": [
         {
           "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "221bf91f-8f95-4014-8158-5d3897662e5d"
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "d10e09d0-b885-4dbb-8afd-f16a497369c1",
+          "DisplayValue": "Success hire"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "055063c9-8180-e011-afbc-00155d04320c",
+          "DisplayValue": "Activities"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 113
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
           "Value": "3910a462-3f8a-41d9-8994-9fc5876a692b"
         },
         {
