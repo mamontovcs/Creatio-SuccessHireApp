@@ -2,6 +2,9 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
+			<Item Name="BaseElements.SearchCandidatesUserTask.Caption" Value="Search candidates" />
+			<Item Name="BaseElements.SearchCandidatesUserTask.Parameters.Vacancy.Caption" Value="Vacancy" />
+			<Item Name="BaseElements.SearchCandidatesUserTask.Parameters.Vacancy.DisplayValue" Value="[#Vacancy#]" />
 			<Item Name="Caption" Value="Search candidates" />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />

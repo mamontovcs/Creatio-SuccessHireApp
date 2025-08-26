@@ -4,7 +4,6 @@
 		<Items>
 			<Item Name="Caption" Value="Статус кандидата" />
 			<Item Name="Columns.SHColor.Caption" Value="Цвет" />
-			<Item Name="EventsProcessSchema.Caption" Value="Базовый объект" />
 		</Items>
 	</Group>
 </Resources>

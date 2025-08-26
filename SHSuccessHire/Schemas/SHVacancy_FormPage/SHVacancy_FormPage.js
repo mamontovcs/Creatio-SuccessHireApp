@@ -152,7 +152,7 @@ define("SHVacancy_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"clicked": {
 						"request": "crt.RunBusinessProcessRequest",
 						"params": {
-							"processName": "SHSearchCandidates",
+							"processName": "SHSearchCandidatesProcess",
 							"processRunType": "ForTheSelectedPage",
 							"saveAtProcessStart": true,
 							"showNotification": true,
@@ -259,7 +259,8 @@ define("SHVacancy_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 							"id": "fcb62d01-2d65-04f5-e17b-22c56b4605a4",
 							"code": "DataGrid_hpg84agDS_SHSkill",
 							"caption": "#ResourceString(DataGrid_hpg84agDS_SHSkill)#",
-							"dataValueType": 10
+							"dataValueType": 10,
+							"width": 282
 						}
 					],
 					"placeholder": false,
@@ -326,6 +327,24 @@ define("SHVacancy_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				"parentName": "DataGrid_hpg84ag",
 				"propertyName": "bulkActions",
 				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "Skills",
+				"values": {
+					"type": "crt.Label",
+					"caption": "#MacrosTemplateString(#ResourceString(Skills_caption)#)#",
+					"labelType": "headline-2",
+					"labelThickness": "default",
+					"labelEllipsis": false,
+					"labelColor": "auto",
+					"labelBackgroundColor": "transparent",
+					"labelTextAlign": "center",
+					"headingLevel": "label"
+				},
+				"parentName": "FeedTabContainer",
+				"propertyName": "tools",
+				"index": 0
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -338,7 +357,15 @@ define("SHVacancy_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"DataGrid_hpg84ag": {
 						"isCollection": true,
 						"modelConfig": {
-							"path": "DataGrid_hpg84agDS"
+							"path": "DataGrid_hpg84agDS",
+							"sortingConfig": {
+								"default": [
+									{
+										"direction": "asc",
+										"columnName": "SHSkill"
+									}
+								]
+							}
 						},
 						"viewModelConfig": {
 							"attributes": {

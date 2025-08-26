@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "31d9e492-2f33-4857-8315-d340413fddf9",
     "Name": "SHCandidateStatus",
-    "ModifiedOnUtc": "\/Date(1756131171000)\/",
+    "ModifiedOnUtc": "\/Date(1756195015000)\/",
     "Parent": {
       "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
       "Name": "BaseLookup"

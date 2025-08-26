@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Vacancy" />
 			<Item Name="Columns.SHAccount.Caption" Value="Account" />
+			<Item Name="Columns.SHDescription.Caption" Value="Description" />
 			<Item Name="Columns.SHTitle.Caption" Value="Title" />
 		</Items>
 	</Group>

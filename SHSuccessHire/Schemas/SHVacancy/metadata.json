@@ -45,7 +45,15 @@
   "E17": "SHAccountId",
   "E18": "SHAccountName"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","0096e1ad-76c2-f1f3-3752-5b4e7f5c23b5","38c1a304-0f28-765a-f5ee-2620da3d2f98"]
++ MetaData.Schema.D2 {
+  "UId": "558460f4-d176-f3b9-dedc-f1cd0f351b15",
+  "A2": "SHDescription",
+  "A3": "aeff1296-fe4f-4676-bca2-17f8e59fe3d1",
+  "A4": "aeff1296-fe4f-4676-bca2-17f8e59fe3d1",
+  "A5": "103d2416-f2e6-45b7-bd2a-d0eda3f808ed",
+  "S2": "c0f04627-4620-4bc0-84e5-9419dc8516b1"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","0096e1ad-76c2-f1f3-3752-5b4e7f5c23b5","38c1a304-0f28-765a-f5ee-2620da3d2f98","558460f4-d176-f3b9-dedc-f1cd0f351b15"]
 = MetaData.Schema.D20.A2 "SHVacancyEvents"
 = MetaData.Schema.D36.A3 "aeff1296-fe4f-4676-bca2-17f8e59fe3d1"
 = MetaData.Schema.D36.BS1 false

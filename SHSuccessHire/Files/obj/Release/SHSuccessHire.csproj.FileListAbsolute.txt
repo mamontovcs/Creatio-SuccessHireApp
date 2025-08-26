@@ -7,3 +7,4 @@ C:\inetpub\wwwroot\clio\creatio2\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\SH
 C:\inetpub\wwwroot\clio\creatio2\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\SHSuccessHire\Files\obj\Release\SHSuccessHire.csproj.CoreCompileInputs.cache
 C:\inetpub\wwwroot\clio\creatio2\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\SHSuccessHire\Files\obj\Release\SHSuccessHire.dll
 C:\inetpub\wwwroot\clio\creatio2\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\SHSuccessHire\Files\obj\Release\SHSuccessHire.pdb
+C:\inetpub\wwwroot\clio\creatio2\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\SHSuccessHire\Files\obj\Release\SHSuccessHire.sourcelink.json
