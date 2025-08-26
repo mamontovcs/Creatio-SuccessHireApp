@@ -5,7 +5,7 @@ using Terrasoft.Core.Entities.Events;
 namespace SHSuccessHire.EventListenters {
 
 	[EntityEventListener(SchemaName = "SHCandidateSkill")]
-	public class ActivityEntityEventListener : BaseEntityEventListener {
+	public class SHCandidateSkillEntityEventListener : BaseEntityEventListener {
 
 		#region Public Methods
 
