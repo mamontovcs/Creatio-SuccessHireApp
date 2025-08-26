@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="ВакансияКандидат" />
+			<Item Name="Columns.SHMatchScore.Caption" Value="Коэффициент соответствия" />
 			<Item Name="Columns.SHVacancy.Caption" Value="Вакансия" />
 		</Items>
 	</Group>
