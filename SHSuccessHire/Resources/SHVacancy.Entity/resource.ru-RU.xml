@@ -3,7 +3,9 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Columns.SHAccount.Caption" Value="Контрагент" />
+			<Item Name="Columns.SHCity.Caption" Value="Город" />
 			<Item Name="Columns.SHDescription.Caption" Value="Описание" />
+			<Item Name="Columns.SHRequiredAge.Caption" Value="Возраст" />
 			<Item Name="Columns.SHTitle.Caption" Value="Название" />
 		</Items>
 	</Group>

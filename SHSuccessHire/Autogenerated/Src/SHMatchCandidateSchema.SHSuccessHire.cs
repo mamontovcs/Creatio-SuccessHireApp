@@ -12,16 +12,17 @@
 	using Terrasoft.Core.Entities;
 	using Terrasoft.Core.Process;
 
-	#region Class: SHSearchCandidates
+	#region Class: SHMatchCandidate
 
 	[DesignModeProperty(Name = "Vacancy", Group = "", ValuesProvider = "ProcessSchemaParameterValueProvider", Editor="xtype=processschemaparametervalueedit;dataProvider=processschemaparametervalueprovider", ResourceManager = "f2c03ee4bd784fd3ad1af28eef385722", CaptionResourceItem = "Parameters.Vacancy.Caption", DescriptionResourceItem = "Parameters.Vacancy.Caption", UseSolutionStorage = true)]
+	[DesignModeProperty(Name = "Candidate", Group = "", ValuesProvider = "ProcessSchemaParameterValueProvider", Editor="xtype=processschemaparametervalueedit;dataProvider=processschemaparametervalueprovider", ResourceManager = "f2c03ee4bd784fd3ad1af28eef385722", CaptionResourceItem = "Parameters.Candidate.Caption", DescriptionResourceItem = "Parameters.Candidate.Caption", UseSolutionStorage = true)]
 	/// <exclude/>
-	public partial class SHSearchCandidates : ProcessUserTask
+	public partial class SHMatchCandidate : ProcessUserTask
 	{
 
 		#region Constructors: Public
 
-		public SHSearchCandidates(UserConnection userConnection)
+		public SHMatchCandidate(UserConnection userConnection)
 			: base(userConnection) {
 			SchemaUId = new Guid("f2c03ee4-bd78-4fd3-ad1a-f28eef385722");
 		}
@@ -31,6 +32,11 @@
 		#region Properties: Public
 
 		public virtual Guid Vacancy {
+			get;
+			set;
+		}
+
+		public virtual Guid Candidate {
 			get;
 			set;
 		}
@@ -51,6 +57,11 @@
 					writer.WriteValue("Vacancy", Vacancy, Guid.Empty);
 				}
 			}
+			if (UseFlowEngineMode) {
+				if (!HasMapping("Candidate")) {
+					writer.WriteValue("Candidate", Candidate, Guid.Empty);
+				}
+			}
 			writer.WriteFinishObject();
 		}
 
@@ -66,6 +77,12 @@
 						break;
 					}
 					Vacancy = reader.GetGuidValue();
+				break;
+				case "Candidate":
+					if (!UseFlowEngineMode) {
+						break;
+					}
+					Candidate = reader.GetGuidValue();
 				break;
 			}
 		}

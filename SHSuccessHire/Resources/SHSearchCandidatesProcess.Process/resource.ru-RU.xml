@@ -2,7 +2,26 @@
 <Resources Culture="ru-RU">
 	<Group Type="String">
 		<Items>
-			<Item Name="BaseElements.SearchCandidatesUserTask.Parameters.Vacancy.Caption" Value="Вакансия" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.AggregationColumnName.Caption" Value="Имя колонки для агрегирующей функции" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.CanReadUncommitedData.Caption" Value="Выполнять &quot;грязное чтение&quot;" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.DataSourceFilters.Caption" Value="Источник данных фильтров" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.EntityColumnMetaPathes.Caption" Value="Перечень колонок для чтения" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.FunctionType.Caption" Value="Тип агрегирующей функции" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.IgnoreDisplayValues.Caption" Value="Не читать отображаемые значения колонок Справочников" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.NumberOfRecords.Caption" Value="Количество записей для чтения" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.OrderInfo.Caption" Value="Порядок сортировки колонок" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ReadSomeTopRecords.Caption" Value="Читать первые" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultCompositeObjectList.Caption" Value="Коллекция записей" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultCompositeObjectList.Id.Caption" Value="Id" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultCount.Caption" Value="Количество записей" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultDateTimeFunction.Caption" Value="Результат функции (Дата/Время)" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultEntity.Caption" Value="Первый элемент результирующей коллекции" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultEntityCollection.Caption" Value="Результирующая коллекция" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultFloatFunction.Caption" Value="Результат функции (Дробное число)" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultIntegerFunction.Caption" Value="Результат функции (Целое)" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultRowsCount.Caption" Value="Количество прочитанных записей" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultType.Caption" Value="Тип результата" />
 			<Item Name="Caption" Value="Search candidates" />
 			<Item Name="Parameters.Vacancy.Caption" Value="Вакансия" />
 		</Items>

@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "f09d6bed-42a6-69f3-095a-a8a078c10703",
     "Name": "SHCandidateStatus_Values",
-    "ModifiedOnUtc": "\/Date(1756132085000)\/",
+    "ModifiedOnUtc": "\/Date(1756212635000)\/",
     "InstallType": 0,
     "Schema": {
       "UId": "31d9e492-2f33-4857-8315-d340413fddf9",
@@ -14,6 +14,13 @@
         "IsForceUpdate": false,
         "IsKey": false,
         "ColumnName": "Description",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Name",
         "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
       },
       {
@@ -29,13 +36,6 @@
         "IsKey": false,
         "ColumnName": "SHColor",
         "DataTypeValueUId": "dafb71f9-ee9f-4e0b-a4d7-37aa15987155"
-      },
-      {
-        "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
-        "IsForceUpdate": false,
-        "IsKey": false,
-        "ColumnName": "Name",
-        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
       }
     ]
   }

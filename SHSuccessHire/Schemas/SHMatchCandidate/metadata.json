@@ -3,7 +3,7 @@
     "Schema": {
       "ManagerName": "ProcessUserTaskSchemaManager",
       "UId": "f2c03ee4-bd78-4fd3-ad1a-f28eef385722",
-      "A2": "SHSearchCandidates",
+      "A2": "SHMatchCandidate",
       "A5": "103d2416-f2e6-45b7-bd2a-d0eda3f808ed",
       "B1": [],
       "B2": [],
@@ -21,6 +21,18 @@
           "L8": {},
           "L6": true,
           "L9": "aeff1296-fe4f-4676-bca2-17f8e59fe3d1",
+          "L11": false
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "7a1f9810-ada2-85e7-de5b-b6a7e87e36f8",
+          "A2": "Candidate",
+          "A3": "f2c03ee4-bd78-4fd3-ad1a-f28eef385722",
+          "A4": "f2c03ee4-bd78-4fd3-ad1a-f28eef385722",
+          "L1": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "L8": {},
+          "L6": true,
+          "L9": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
           "L11": false
         }
       ],

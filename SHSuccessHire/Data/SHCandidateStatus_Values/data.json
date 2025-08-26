@@ -32,7 +32,19 @@
         },
         {
           "SchemaColumnUId": "7b8f164f-9115-8145-078a-3ef39a623bd2",
-          "Value": "#56ff00"
+          "Value": "#56FF00"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "d84faa6e-ee57-442e-a115-2625c93034d5"
+        },
+        {
+          "SchemaColumnUId": "7b8f164f-9115-8145-078a-3ef39a623bd2",
+          "Value": "#a871fe"
         }
       ]
     }

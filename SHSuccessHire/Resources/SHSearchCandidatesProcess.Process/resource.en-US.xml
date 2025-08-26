@@ -2,9 +2,45 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="BaseElements.SearchCandidatesUserTask.Caption" Value="Search candidates" />
-			<Item Name="BaseElements.SearchCandidatesUserTask.Parameters.Vacancy.Caption" Value="Vacancy" />
-			<Item Name="BaseElements.SearchCandidatesUserTask.Parameters.Vacancy.DisplayValue" Value="[#Vacancy#]" />
+			<Item Name="BaseElements.GetAvailableCandidates.Caption" Value="Get available candidates" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.CanReadUncommitedData.DisplayValue" Value="true" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.EntityColumnMetaPathes.DisplayValue" Value="ae0e45ca-c495-4fe7-a39d-3ab7278e1617" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.FunctionType.DisplayValue" Value="0" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.NumberOfRecords.DisplayValue" Value="500" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ReadSomeTopRecords.DisplayValue" Value="true" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultCompositeObjectList.Id.Caption" Value="Id" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultDateTimeFunction.Caption" Value="Function result (Date/Time)" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultFloatFunction.Caption" Value="Function result (Decimal)" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.GetAvailableCandidates.Parameters.ResultType.DisplayValue" Value="2" />
+			<Item Name="BaseElements.ProcessCandidate.Caption" Value="Process candidate" />
+			<Item Name="BaseElements.ProcessCandidate.Parameters.CompletedIterationsCount.Caption" Value="Number of completed instances" />
+			<Item Name="BaseElements.ProcessCandidate.Parameters.InputRecordCollection.Candidate.Caption" Value="Candidate" />
+			<Item Name="BaseElements.ProcessCandidate.Parameters.InputRecordCollection.Candidate.DisplayValue" Value="[#Get available candidates.Collection of records:Id#]" />
+			<Item Name="BaseElements.ProcessCandidate.Parameters.InputRecordCollection.Caption" Value="Input record collection" />
+			<Item Name="BaseElements.ProcessCandidate.Parameters.InputRecordCollection.DisplayValue" Value="[#Get available candidates.Collection of records#]" />
+			<Item Name="BaseElements.ProcessCandidate.Parameters.InputRecordCollection.Vacancy.Caption" Value="Vacancy" />
+			<Item Name="BaseElements.ProcessCandidate.Parameters.InputRecordCollection.Vacancy.DisplayValue" Value="[#Vacancy#]" />
+			<Item Name="BaseElements.ProcessCandidate.Parameters.OutputRecordCollection.Caption" Value="Output record collection" />
+			<Item Name="BaseElements.ProcessCandidate.Parameters.TerminatedIterationsCount.Caption" Value="Number of terminated instances" />
+			<Item Name="BaseElements.ProcessCandidate.Parameters.TotalIterationsCount.Caption" Value="Total number of instances" />
 			<Item Name="Caption" Value="Search candidates" />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />

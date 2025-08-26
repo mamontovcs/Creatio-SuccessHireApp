@@ -2,7 +2,7 @@
 <Resources Culture="ru-RU">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Search candidates" />
+			<Item Name="Caption" Value="Найти кандидата" />
 			<Item Name="Parameters.Vacancy.Caption" Value="Вакансия" />
 		</Items>
 	</Group>
