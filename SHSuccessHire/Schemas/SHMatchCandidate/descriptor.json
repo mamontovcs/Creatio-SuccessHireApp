@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "f2c03ee4-bd78-4fd3-ad1a-f28eef385722",
     "Name": "SHMatchCandidate",
-    "ModifiedOnUtc": "\/Date(1756218015000)\/",
+    "ModifiedOnUtc": "\/Date(1756228927000)\/",
     "ManagerName": "ProcessUserTaskSchemaManager",
     "Caption": "Match candidate",
     "DependsOn": []

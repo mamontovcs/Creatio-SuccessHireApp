@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "7636a20b-abaf-484a-9e1e-25b333a02d0a",
     "Name": "SHCandidateSkill",
-    "ModifiedOnUtc": "\/Date(1756231263000)\/",
+    "ModifiedOnUtc": "\/Date(1756235582000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"

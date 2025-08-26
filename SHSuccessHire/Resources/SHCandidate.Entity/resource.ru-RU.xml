@@ -2,9 +2,9 @@
 <Resources Culture="ru-RU">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Кандидат" />
 			<Item Name="Columns.SHCandidateStatus.Caption" Value="Статус кандидата" />
 			<Item Name="Columns.SHContact.Caption" Value="Контакт" />
+			<Item Name="Columns.SHTitle.Caption" Value="Название" />
 		</Items>
 	</Group>
 </Resources>

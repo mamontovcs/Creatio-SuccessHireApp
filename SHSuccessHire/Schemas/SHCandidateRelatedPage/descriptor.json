@@ -4,6 +4,7 @@
     "Name": "SHCandidateRelatedPage",
     "ModifiedOnUtc": "\/Date(1756231431000)\/",
     "ManagerName": "AddonSchemaManager",
-    "Caption": "Candidate (Page settings)"
+    "Caption": "Candidate (Page settings)",
+    "DependsOn": []
   }
 }

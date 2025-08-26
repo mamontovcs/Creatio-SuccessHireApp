@@ -13,39 +13,47 @@ namespace Terrasoft.Core.Process.Configuration {
 
 		#region Private Fields
 
-		private const string AvailableCandidateStatusIdentifier = "BFEB65A3-A126-4071-8708-89A1E794DCF0";
-		private const string CandidateIdentifier = "4849E68C-FAA1-4C2C-8CB7-85E08BA25DCF";
 		private const string NotAvailableCandidateStatusId = "52DBF51F-FA9C-47D8-9572-CFCA129AD024";
 
 		#endregion Private Fields
 
 		#region Private Methods
 
-		private decimal CalculateMatch(Guid candidateId, Guid vacancyId) {
+		private decimal CalculateMatch(Entity candidate, Guid vacancyId) {
 			var skillsWeight = 60;
 			var cityWeight = 20;
 			var minimumAgeWeight = 10;
 			var maximumAgeWeight = 20;
+			// Candidate with linked Contact
 			var esqCandidate = new EntitySchemaQuery(UserConnection.EntitySchemaManager, "SHCandidate");
-			esqCandidate.AddColumn("Age");
-			esqCandidate.AddColumn("City.Name");
+			esqCandidate.AddColumn("SHContact.Age");
+			esqCandidate.AddColumn("SHContact.City.Name");
 			esqCandidate.AddColumn("Id");
-			var candidateEntity = esqCandidate.GetEntity(UserConnection, candidateId);
+			var candidateEntity = esqCandidate.GetEntity(UserConnection, candidate.PrimaryColumnValue);
+			// Vacancy
 			var esqVacancy = new EntitySchemaQuery(UserConnection.EntitySchemaManager, "SHVacancy");
 			esqVacancy.AddColumn("SHRequiredAge");
 			esqVacancy.AddColumn("SHCity.Name");
 			var vacancyEntity = esqVacancy.GetEntity(UserConnection, vacancyId);
-			var candidateSkills = GetCandidateSkills(candidateId);
+			// Skills
+			var candidateSkills = GetCandidateSkills(candidate.PrimaryColumnValue);
 			var vacancySkills = GetVacancySkills(vacancyId);
 			var matched = candidateSkills.Intersect(vacancySkills).Count();
 			var skillsScore = vacancySkills.Count > 0
 				? (decimal)matched / vacancySkills.Count * skillsWeight
 				: 0;
+			// Age
+			var candidateAge = candidateEntity.GetTypedColumnValue<int>("SHContact_Age");
 			var vacancyAge = vacancyEntity.GetTypedColumnValue<int>("SHRequiredAge");
-			var ageDiff = Math.Abs(candidateEntity.GetTypedColumnValue<int>("Age") - vacancyAge);
-			var ageScore = vacancyAge == 0 ? maximumAgeWeight : ageDiff <= 5 ? maximumAgeWeight : (ageDiff <= 10 ? minimumAgeWeight : 0);
-			var cityScore = candidateEntity.GetTypedColumnValue<string>("City_Name")
-								== vacancyEntity.GetTypedColumnValue<string>("City_Name") ? cityWeight : 0;
+			var ageDiff = Math.Abs(candidateAge - vacancyAge);
+			var ageScore = vacancyAge == 0
+				? maximumAgeWeight
+				: ageDiff <= 5 ? maximumAgeWeight
+				: (ageDiff <= 10 ? minimumAgeWeight : 0);
+			// City
+			var candidateCity = candidateEntity.GetTypedColumnValue<string>("SHContact_City_Name");
+			var vacancyCity = vacancyEntity.GetTypedColumnValue<string>("SHCity_Name");
+			var cityScore = candidateCity == vacancyCity ? cityWeight : 0;
 			return skillsScore + ageScore + cityScore;
 		}
 
@@ -76,23 +84,24 @@ namespace Terrasoft.Core.Process.Configuration {
 		}
 
 		private void PopulateVacancyCandidate(Entity candidateEntity) {
-			var candidateId = candidateEntity.GetTypedColumnValue<Guid>("Id");
-			var matchScore = CalculateMatch(candidateId, Vacancy);
+			var matchScore = CalculateMatch(candidateEntity, Vacancy);
 			var vacancyCandidateSchema = UserConnection.EntitySchemaManager.GetInstanceByName("SHVacancyCandidate");
 			var vacancyCandidateEntity = vacancyCandidateSchema.CreateEntity(UserConnection);
 			var entityConditions = new Dictionary<string, object>() {
-					{ "SHVacancyId", Vacancy },
-					{ "SHCandidateId", candidateId}
+					{ "SHVacancy", Vacancy },
+					{ "SHCandidate", Candidate}
 				};
 			if (!vacancyCandidateEntity.FetchFromDB(entityConditions)) {
 				vacancyCandidateEntity.SetDefColumnValues();
 				vacancyCandidateEntity.SetColumnValue("SHVacancyId", Vacancy);
-				vacancyCandidateEntity.SetColumnValue("SHCandidateId", candidateId);
-				vacancyCandidateEntity.SetColumnValue("Status", NotAvailableCandidateStatusId);
+				vacancyCandidateEntity.SetColumnValue("SHCandidateId", Candidate);
 				vacancyCandidateEntity.SetColumnValue("SHMatchScore", matchScore);
 				vacancyCandidateEntity.Save();
+				candidateEntity.SetColumnValue("SHCandidateStatusId", NotAvailableCandidateStatusId);
+				candidateEntity.Save();
 			}
-			vacancyCandidateEntity.SetColumnValue("Status", NotAvailableCandidateStatusId);
+			candidateEntity.SetColumnValue("SHCandidateStatusId", NotAvailableCandidateStatusId);
+			candidateEntity.Save();
 			vacancyCandidateEntity.SetColumnValue("SHMatchScore", matchScore);
 			vacancyCandidateEntity.Save();
 		}
@@ -104,6 +113,7 @@ namespace Terrasoft.Core.Process.Configuration {
 		protected override bool InternalExecute(ProcessExecutingContext context) {
 			var candidateSchema = UserConnection.EntitySchemaManager.GetInstanceByName("SHCandidate");
 			var candidateEntity = candidateSchema.CreateEntity(UserConnection);
+			candidateEntity.FetchFromDB("Id", Candidate);
 			PopulateVacancyCandidate(candidateEntity);
 			return true;
 		}

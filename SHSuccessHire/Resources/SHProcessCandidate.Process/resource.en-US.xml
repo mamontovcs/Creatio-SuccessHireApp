@@ -2,12 +2,120 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
+			<Item Name="BaseElements.ConditionalSequenceFlow2.Caption" Value="More than 30 days after last update" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Caption" Value="Create a task for recruiter" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Account.Caption" Value="Account" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.ActivityCategory.Caption" Value="Category" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.ActivityCategory.DisplayValue" Value="To do" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.ActivityPriority.Caption" Value="Priority" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.ActivityPriority.DisplayValue" Value="ab96fa02-7fe6-df11-971b-001d60e938c6" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.ActivityResult.Caption" Value="Result of activity" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Application.Caption" Value="Application" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Case.Caption" Value="Case" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Change.Caption" Value="Change" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Contact.Caption" Value="Contact" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Contact.DisplayValue" Value="[#Get free recruiter.First item of resulting collection.Contact#]" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Contract.Caption" Value="Contract" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.CurrentActivityId.Caption" Value="Task Id" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Document.Caption" Value="Document" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Duration.Caption" Value="Duration" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Duration.DisplayValue" Value="20" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.DurationPeriod.Caption" Value="Duration (period)" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.DurationPeriod.DisplayValue" Value="0" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Event.Caption" Value="Event" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.ExecutionContext.Caption" Value="Execution context" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.FinApplication.Caption" Value="Application" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Incident.Caption" Value="Incident" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.InformationOnStep.Caption" Value="Information on step" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Invoice.Caption" Value="Invoice" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.IsActivityCompleted.Caption" Value="Activity completed" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.IsActivityCompleted.DisplayValue" Value="false" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.KnowledgeBase.Caption" Value="Knowledge base article" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Lead.Caption" Value="Lead" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Listing.Caption" Value="Listings" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.OmniChat.Caption" Value="Chat" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Opportunity.Caption" Value="Opportunity" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Order.Caption" Value="Order" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.OwnerId.Caption" Value="Owner" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.OwnerId.DisplayValue" Value="[#Get free recruiter.First item of resulting collection.Contact#]" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Problem.Caption" Value="Problem" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Project.Caption" Value="Project" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Property.Caption" Value="Properties" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.QueueItem.Caption" Value="Queue item" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Recommendation.Caption" Value="Recommendation" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Recommendation.DisplayValue" Value="&quot;Please, update the following candidate.&quot; + [#Match candidate.Candidate#]" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Release.Caption" Value="Release" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.RemindBefore.Caption" Value="Remind owner in advance" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.RemindBefore.DisplayValue" Value="0" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.RemindBeforePeriod.Caption" Value="Remind owner in advance (period)" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.RemindBeforePeriod.DisplayValue" Value="0" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Requests.Caption" Value="Request" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.RoleId.Caption" Value="Role" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.SHCandidate.Caption" Value="Candidate" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.SHCandidate.DisplayValue" Value="[#Get candidate.First item of resulting collection.Id#]" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.ShowExecutionPage.Caption" Value="Show execution page automatically" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.ShowExecutionPage.DisplayValue" Value="false" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.ShowInScheduler.Caption" Value="Show in calendar" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.ShowInScheduler.DisplayValue" Value="false" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.StartIn.Caption" Value="Start executing in" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.StartIn.DisplayValue" Value="0" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.StartInPeriod.Caption" Value="Start executing in (period)" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.StartInPeriod.DisplayValue" Value="0" />
 			<Item Name="BaseElements.MatchCandidate.Caption" Value="Match candidate" />
 			<Item Name="BaseElements.MatchCandidate.Parameters.Candidate.Caption" Value="Candidate" />
 			<Item Name="BaseElements.MatchCandidate.Parameters.Candidate.DisplayValue" Value="[#Candidate#]" />
 			<Item Name="BaseElements.MatchCandidate.Parameters.Vacancy.Caption" Value="Vacancy" />
 			<Item Name="BaseElements.MatchCandidate.Parameters.Vacancy.DisplayValue" Value="[#Vacancy#]" />
-			<Item Name="BaseElements.ReadDataUserTask2.Caption" Value="Get free recruiter - Copy" />
+			<Item Name="BaseElements.ReadCandidate.Caption" Value="Get candidate" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.CanReadUncommitedData.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.EntityColumnMetaPathes.DisplayValue" Value="ae0e45ca-c495-4fe7-a39d-3ab7278e1617" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.FunctionType.DisplayValue" Value="0" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.NumberOfRecords.DisplayValue" Value="50" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.OrderInfo.DisplayValue" Value="SHTitle:1:1" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.ReadSomeTopRecords.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.ResultDateTimeFunction.Caption" Value="Function result (Date/Time)" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.ResultFloatFunction.Caption" Value="Function result (Decimal)" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.ReadCandidate.Parameters.ResultType.DisplayValue" Value="0" />
+			<Item Name="BaseElements.ReadDataUserTask1.Caption" Value="Get last modified date" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultDateTimeFunction.Caption" Value="Function result (Date/Time)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultFloatFunction.Caption" Value="Function result (Decimal)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.ReadDataUserTask2.Caption" Value="Get free recruiter" />
 			<Item Name="BaseElements.ReadDataUserTask2.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
 			<Item Name="BaseElements.ReadDataUserTask2.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
 			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />

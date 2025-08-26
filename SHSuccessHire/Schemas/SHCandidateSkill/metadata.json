@@ -41,9 +41,38 @@
   "S4": "f6851522-9556-46e7-a4a6-34a13a68b693",
   "E6": true,
   "E20": true,
-  "E17": "SHCandidateId"
+  "E17": "SHCandidateId",
+  "E18": "SHCandidateSHTitle"
 }
 ~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","a496baba-13ff-da3f-34cf-abfaaf85becb","660535aa-c105-3f14-bba7-43844b910619"]
++ MetaData.Schema.D6 {
+  "UId": "671b400c-0857-4f2e-84f1-a448d581bb83",
+  "A2": "CandidateSkillUniqueIndex",
+  "A3": "7636a20b-abaf-484a-9e1e-25b333a02d0a",
+  "A4": "7636a20b-abaf-484a-9e1e-25b333a02d0a",
+  "A5": "c2af6023-5f73-4915-a017-3c8dd5ced12a",
+  "F1": false,
+  "F2": true,
+  "F4": [
+    {
+      "UId": "cbcf2fea-3e3a-cfa4-1d15-494ab71aef6c",
+      "A2": "IndexColumn_SHCandidate",
+      "A3": "7636a20b-abaf-484a-9e1e-25b333a02d0a",
+      "A4": "7636a20b-abaf-484a-9e1e-25b333a02d0a",
+      "A5": "c2af6023-5f73-4915-a017-3c8dd5ced12a",
+      "G1": "660535aa-c105-3f14-bba7-43844b910619"
+    },
+    {
+      "UId": "f44edbd8-9857-12ec-c314-5de5fc2d74ed",
+      "A2": "IndexColumn_SHSkill",
+      "A3": "7636a20b-abaf-484a-9e1e-25b333a02d0a",
+      "A4": "7636a20b-abaf-484a-9e1e-25b333a02d0a",
+      "A5": "c2af6023-5f73-4915-a017-3c8dd5ced12a",
+      "G1": "a496baba-13ff-da3f-34cf-abfaaf85becb"
+    }
+  ]
+}
+~ MetaData.Schema.D6 ["671b400c-0857-4f2e-84f1-a448d581bb83"]
 = MetaData.Schema.D20.A2 "SHCandidateSkillEvents"
 = MetaData.Schema.D36.A3 "7636a20b-abaf-484a-9e1e-25b333a02d0a"
 = MetaData.Schema.D36.BS1 false

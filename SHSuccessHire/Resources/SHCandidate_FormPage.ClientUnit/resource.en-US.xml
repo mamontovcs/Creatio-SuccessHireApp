@@ -3,6 +3,8 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Candidate form page" />
+			<Item Name="LocalizableStrings.addRecord_6xz55ld_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.Label_zpekin4_caption.Value" Value="Skills" />
 		</Items>
 	</Group>
 </Resources>

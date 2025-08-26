@@ -3,7 +3,7 @@
     "UId": "857128e6-ca86-46e1-828b-296570709f85",
     "Name": "SHSuccessHire",
     "Type": 1,
-    "ModifiedOnUtc": "\/Date(1731959136000)\/",
+    "ModifiedOnUtc": "\/Date(1756240490000)\/",
     "Maintainer": "SuccessHire",
     "ProjectPath": "Files/SHSuccessHire.csproj",
     "DependsOn": [
@@ -18,6 +18,13 @@
         "PackageVersion": "7.8.0",
         "Name": "CrtCustomer360App",
         "Type": 1
+      },
+      {
+        "UId": "99158cb9-b1b4-3a1d-beb0-7157e0414e73",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtC360InUiV2",
+        "Type": 1,
+        "InstallBehavior": 1
       }
     ]
   }

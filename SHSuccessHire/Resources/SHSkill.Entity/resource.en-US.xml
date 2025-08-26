@@ -3,7 +3,6 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Skill" />
-			<Item Name="EventsProcessSchema.Caption" Value="Business process" />
 		</Items>
 	</Group>
 </Resources>

@@ -55,7 +55,7 @@
           "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
           "GT1": {
             "GS1": 1,
-            "GS2": "{\"className\":\"Terrasoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"Terrasoft.FilterGroup\\\",\\\"items\\\":{\\\"b6cf0b4f-f810-4786-af71-6c389bcbd548\\\":{\\\"className\\\":\\\"Terrasoft.InFilter\\\",\\\"filterType\\\":4,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"Terrasoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"SHCandidateStatus\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"b6cf0b4f-f810-4786-af71-6c389bcbd548\\\",\\\"dataValueType\\\":10,\\\"leftExpressionCaption\\\":\\\"Candidate status\\\",\\\"referenceSchemaName\\\":\\\"SHCandidateStatus\\\",\\\"rightExpressions\\\":[{\\\"className\\\":\\\"Terrasoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"Terrasoft.Parameter\\\",\\\"dataValueType\\\":10,\\\"value\\\":{\\\"Name\\\":\\\"Avilable\\\",\\\"Id\\\":\\\"bfeb65a3-a126-4071-8708-89a1e794dcf0\\\",\\\"value\\\":\\\"bfeb65a3-a126-4071-8708-89a1e794dcf0\\\",\\\"displayValue\\\":\\\"Avilable\\\"}}}]}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Contact\\\",\\\"key\\\":\\\"\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"b6cf0b4f-f810-4786-af71-6c389bcbd548\\\":{\\\"filterType\\\":4,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"SHCandidateStatus\\\"},\\\"rightExpressions\\\":[{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":10,\\\"value\\\":\\\"bfeb65a3-a126-4071-8708-89a1e794dcf0\\\"}}]}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Contact\\\"}\"}",
+            "GS2": "{\"className\":\"Terrasoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"Terrasoft.FilterGroup\\\",\\\"items\\\":{\\\"35664a14-7fdf-49c2-968f-529d6dd5a589\\\":{\\\"className\\\":\\\"Terrasoft.InFilter\\\",\\\"filterType\\\":4,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"Terrasoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"SHCandidateStatus\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"35664a14-7fdf-49c2-968f-529d6dd5a589\\\",\\\"dataValueType\\\":10,\\\"leftExpressionCaption\\\":\\\"Candidate status\\\",\\\"referenceSchemaName\\\":\\\"SHCandidateStatus\\\",\\\"rightExpressions\\\":[{\\\"className\\\":\\\"Terrasoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"Terrasoft.Parameter\\\",\\\"dataValueType\\\":10,\\\"value\\\":{\\\"Name\\\":\\\"Avilable\\\",\\\"Id\\\":\\\"bfeb65a3-a126-4071-8708-89a1e794dcf0\\\",\\\"value\\\":\\\"bfeb65a3-a126-4071-8708-89a1e794dcf0\\\",\\\"displayValue\\\":\\\"Avilable\\\"}}}]}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"SHCandidate\\\",\\\"key\\\":\\\"\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"35664a14-7fdf-49c2-968f-529d6dd5a589\\\":{\\\"filterType\\\":4,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"SHCandidateStatus\\\"},\\\"rightExpressions\\\":[{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":10,\\\"value\\\":\\\"bfeb65a3-a126-4071-8708-89a1e794dcf0\\\"}}]}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"SHCandidate\\\"}\"}",
             "GS5": "fa0abb63-516f-4652-a740-e377a8ac05e0"
           }
         },
@@ -158,7 +158,8 @@
           "GT5": "e2fced10-4842-423e-ada0-523bf7ea8ad3",
           "GT4": "cb455b6f-78ff-4b1e-b241-c2bbc0b37e9f",
           "GT1": {
-            "GS1": 1
+            "GS1": 1,
+            "GS5": "fa0abb63-516f-4652-a740-e377a8ac05e0"
           }
         },
         {
@@ -310,8 +311,8 @@
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaMapping",
-          "UId": "2439fee1-1f33-4127-ba60-aebafa381333",
-          "A2": "CreateTaskForRecruiters",
+          "UId": "776198a2-3d69-48a3-9cc3-b2aa94d38578",
+          "A2": "ProcessCandidate",
           "A3": "fa0abb63-516f-4652-a740-e377a8ac05e0",
           "A4": "fa0abb63-516f-4652-a740-e377a8ac05e0",
           "GT2": "[Element:{2dc232a1-fbac-4254-8274-e5467886b7e3}].[Parameter:{88fc5503-1935-4b63-84ee-94a09dd02a3e}]",
@@ -324,8 +325,8 @@
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaMapping",
-          "UId": "91b8dfaf-8ad4-438c-8da5-0f51497304d1",
-          "A2": "CreateTaskForRecruiters",
+          "UId": "d50185a2-df3f-4e46-a701-ce2bca3dedc9",
+          "A2": "ProcessCandidate",
           "A3": "fa0abb63-516f-4652-a740-e377a8ac05e0",
           "A4": "fa0abb63-516f-4652-a740-e377a8ac05e0",
           "GT2": "[Element:{2dc232a1-fbac-4254-8274-e5467886b7e3}].[Parameter:{025923b2-2137-45ba-bebd-e1d03a91e524}]",
@@ -333,6 +334,8 @@
           "GT5": "a48229fe-f448-4b61-9bd9-53860852018b",
           "GT4": "222d05c2-2d41-4feb-b94f-d0ad13e43274",
           "GT1": {
+            "GS1": 3,
+            "GS2": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{a3ef6f5e-d2bd-4753-887d-f491365a8fbf}].[Parameter:{ae0e45ca-c495-4fe7-a39d-3ab7278e1617}]#]",
             "GS5": "222d05c2-2d41-4feb-b94f-d0ad13e43274"
           }
         }
@@ -430,16 +433,16 @@
           "BO2": true,
           "BO3": true,
           "BP6": {
-            "JE2": "03dd50bb-6615-4dfb-bda0-73072d4ff8f8",
-            "JE3": "5859befe-129c-456a-a293-ee0ac90b2839",
-            "JE5": "afb85357-eafe-4799-a8ee-24bf208ccc58",
-            "JE6": "fb278a14-c4ad-4c12-89fe-551ca47891cb",
-            "JE7": "06f85dbb-9c53-41ef-a85e-856e5e21b1c8"
+            "JE2": "537fbe00-004f-424c-9cc9-0f525c21d340",
+            "JE3": "4a61d01f-b17b-4e2e-82d0-75dc305386bb",
+            "JE5": "94205f1f-f69b-4ba6-99c6-f5a3ee08de6f",
+            "JE6": "991163ac-fe41-46cc-9c8f-f98bb68b2e48",
+            "JE7": "2b53c7f7-a067-4b32-b590-a41474e02ee7"
           },
           "BP2": [
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
-              "UId": "03dd50bb-6615-4dfb-bda0-73072d4ff8f8",
+              "UId": "537fbe00-004f-424c-9cc9-0f525c21d340",
               "A2": "InputRecordCollection",
               "A3": "fa0abb63-516f-4652-a740-e377a8ac05e0",
               "A4": "fa0abb63-516f-4652-a740-e377a8ac05e0",
@@ -488,7 +491,7 @@
             },
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
-              "UId": "5859befe-129c-456a-a293-ee0ac90b2839",
+              "UId": "4a61d01f-b17b-4e2e-82d0-75dc305386bb",
               "A2": "OutputRecordCollection",
               "A3": "fa0abb63-516f-4652-a740-e377a8ac05e0",
               "A4": "fa0abb63-516f-4652-a740-e377a8ac05e0",
@@ -499,7 +502,7 @@
             },
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
-              "UId": "afb85357-eafe-4799-a8ee-24bf208ccc58",
+              "UId": "94205f1f-f69b-4ba6-99c6-f5a3ee08de6f",
               "A2": "CompletedIterationsCount",
               "A3": "fa0abb63-516f-4652-a740-e377a8ac05e0",
               "A4": "fa0abb63-516f-4652-a740-e377a8ac05e0",
@@ -510,7 +513,7 @@
             },
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
-              "UId": "fb278a14-c4ad-4c12-89fe-551ca47891cb",
+              "UId": "991163ac-fe41-46cc-9c8f-f98bb68b2e48",
               "A2": "TerminatedIterationsCount",
               "A3": "fa0abb63-516f-4652-a740-e377a8ac05e0",
               "A4": "fa0abb63-516f-4652-a740-e377a8ac05e0",
@@ -521,7 +524,7 @@
             },
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
-              "UId": "06f85dbb-9c53-41ef-a85e-856e5e21b1c8",
+              "UId": "2b53c7f7-a067-4b32-b590-a41474e02ee7",
               "A2": "TotalIterationsCount",
               "A3": "fa0abb63-516f-4652-a740-e377a8ac05e0",
               "A4": "fa0abb63-516f-4652-a740-e377a8ac05e0",
@@ -561,7 +564,7 @@
               "L1": "394e160f-c8e0-46fa-9c0d-75d97e9e9169",
               "L8": {
                 "GS1": 1,
-                "GS2": "{\"className\":\"Terrasoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"Terrasoft.FilterGroup\\\",\\\"items\\\":{\\\"b6cf0b4f-f810-4786-af71-6c389bcbd548\\\":{\\\"className\\\":\\\"Terrasoft.InFilter\\\",\\\"filterType\\\":4,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"Terrasoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"SHCandidateStatus\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"b6cf0b4f-f810-4786-af71-6c389bcbd548\\\",\\\"dataValueType\\\":10,\\\"leftExpressionCaption\\\":\\\"Candidate status\\\",\\\"referenceSchemaName\\\":\\\"SHCandidateStatus\\\",\\\"rightExpressions\\\":[{\\\"className\\\":\\\"Terrasoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"Terrasoft.Parameter\\\",\\\"dataValueType\\\":10,\\\"value\\\":{\\\"Name\\\":\\\"Avilable\\\",\\\"Id\\\":\\\"bfeb65a3-a126-4071-8708-89a1e794dcf0\\\",\\\"value\\\":\\\"bfeb65a3-a126-4071-8708-89a1e794dcf0\\\",\\\"displayValue\\\":\\\"Avilable\\\"}}}]}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Contact\\\",\\\"key\\\":\\\"\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"b6cf0b4f-f810-4786-af71-6c389bcbd548\\\":{\\\"filterType\\\":4,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"SHCandidateStatus\\\"},\\\"rightExpressions\\\":[{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":10,\\\"value\\\":\\\"bfeb65a3-a126-4071-8708-89a1e794dcf0\\\"}}]}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"Contact\\\"}\"}",
+                "GS2": "{\"className\":\"Terrasoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"Terrasoft.FilterGroup\\\",\\\"items\\\":{\\\"35664a14-7fdf-49c2-968f-529d6dd5a589\\\":{\\\"className\\\":\\\"Terrasoft.InFilter\\\",\\\"filterType\\\":4,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"Terrasoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"SHCandidateStatus\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"35664a14-7fdf-49c2-968f-529d6dd5a589\\\",\\\"dataValueType\\\":10,\\\"leftExpressionCaption\\\":\\\"Candidate status\\\",\\\"referenceSchemaName\\\":\\\"SHCandidateStatus\\\",\\\"rightExpressions\\\":[{\\\"className\\\":\\\"Terrasoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"Terrasoft.Parameter\\\",\\\"dataValueType\\\":10,\\\"value\\\":{\\\"Name\\\":\\\"Avilable\\\",\\\"Id\\\":\\\"bfeb65a3-a126-4071-8708-89a1e794dcf0\\\",\\\"value\\\":\\\"bfeb65a3-a126-4071-8708-89a1e794dcf0\\\",\\\"displayValue\\\":\\\"Avilable\\\"}}}]}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"SHCandidate\\\",\\\"key\\\":\\\"\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"35664a14-7fdf-49c2-968f-529d6dd5a589\\\":{\\\"filterType\\\":4,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"SHCandidateStatus\\\"},\\\"rightExpressions\\\":[{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":10,\\\"value\\\":\\\"bfeb65a3-a126-4071-8708-89a1e794dcf0\\\"}}]}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"SHCandidate\\\"}\"}",
                 "GS5": "fa0abb63-516f-4652-a740-e377a8ac05e0"
               }
             },
@@ -654,7 +657,7 @@
                 "GS1": 1,
                 "GS5": "fa0abb63-516f-4652-a740-e377a8ac05e0"
               },
-              "L9": "16be3651-8fe2-4159-8dd0-a803d4683dd3"
+              "L9": "f6851522-9556-46e7-a4a6-34a13a68b693"
             },
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",

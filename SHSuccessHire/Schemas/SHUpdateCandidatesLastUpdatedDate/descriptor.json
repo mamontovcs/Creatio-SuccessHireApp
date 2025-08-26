@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "cc245a1b-a84e-44d0-a78b-f72636e30342",
+    "Name": "SHUpdateCandidatesLastUpdatedDate",
+    "ModifiedOnUtc": "\/Date(1756239741000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Update candidate's last updated date",
+    "DependsOn": []
+  }
+}
