@@ -25,12 +25,11 @@
   "A4": "86ff65b3-1986-4422-84e8-6b394c177597",
   "A5": "103d2416-f2e6-45b7-bd2a-d0eda3f808ed",
   "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
-  "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+  "S4": "f6851522-9556-46e7-a4a6-34a13a68b693",
   "E2": 1,
   "E6": true,
   "E20": true,
-  "E17": "SHCandidateId",
-  "E18": "SHCandidateName"
+  "E17": "SHCandidateId"
 }
 + MetaData.Schema.D2 {
   "UId": "a186a0c2-c1b4-b00a-0827-bc78d73c878b",

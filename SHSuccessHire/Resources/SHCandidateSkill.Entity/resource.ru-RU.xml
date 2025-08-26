@@ -5,7 +5,6 @@
 			<Item Name="Caption" Value="КандидатНавык" />
 			<Item Name="Columns.SHCandidate.Caption" Value="Кандидат" />
 			<Item Name="Columns.SHSkill.Caption" Value="Навык" />
-			<Item Name="EventsProcessSchema.Caption" Value="Базовый объект" />
 		</Items>
 	</Group>
 </Resources>

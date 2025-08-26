@@ -1,6 +1,7 @@
 <Project>
 	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
 		<Compile Include="$(PkgPath)/SHSuccessHire/Schemas/Contact/Contact.cs" Condition="Exists('$(PkgPath)/SHSuccessHire/Schemas/Contact/Contact.cs')" />
+		<Compile Include="$(PkgPath)/SHSuccessHire/Schemas/SHCandidate/SHCandidate.cs" Condition="Exists('$(PkgPath)/SHSuccessHire/Schemas/SHCandidate/SHCandidate.cs')" />
 		<Compile Include="$(PkgPath)/SHSuccessHire/Schemas/SHCandidateSkill/SHCandidateSkill.cs" Condition="Exists('$(PkgPath)/SHSuccessHire/Schemas/SHCandidateSkill/SHCandidateSkill.cs')" />
 		<Compile Include="$(PkgPath)/SHSuccessHire/Schemas/SHCandidateStatus/SHCandidateStatus.cs" Condition="Exists('$(PkgPath)/SHSuccessHire/Schemas/SHCandidateStatus/SHCandidateStatus.cs')" />
 		<Compile Include="$(PkgPath)/SHSuccessHire/Schemas/SHInterview/SHInterview.cs" Condition="Exists('$(PkgPath)/SHSuccessHire/Schemas/SHInterview/SHInterview.cs')" />

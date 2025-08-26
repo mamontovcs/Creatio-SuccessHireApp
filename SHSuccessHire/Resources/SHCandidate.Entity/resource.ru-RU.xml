@@ -4,7 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Кандидат" />
 			<Item Name="Columns.SHCandidateStatus.Caption" Value="Статус кандидата" />
-			<Item Name="Columns.SHUpdatedOn.Caption" Value="Дата обновления" />
+			<Item Name="Columns.SHContact.Caption" Value="Контакт" />
 		</Items>
 	</Group>
 </Resources>

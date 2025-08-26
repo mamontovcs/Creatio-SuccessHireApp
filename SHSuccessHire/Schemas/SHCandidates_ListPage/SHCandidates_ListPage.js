@@ -15,6 +15,41 @@ define("SHCandidates_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 			},
 			{
 				"operation": "merge",
+				"name": "LookupQuickFilterByTag",
+				"values": {
+					"config": {
+						"caption": "#ResourceString(LookupQuickFilterByTag_config_caption)#",
+						"hint": "#ResourceString(LookupQuickFilterByTag_config_hint)#",
+						"icon": "tag-icon",
+						"iconPosition": "left-icon",
+						"entitySchemaName": null,
+						"defaultValue": []
+					},
+					"_filterOptions": {
+						"expose": [
+							{
+								"attribute": "LookupQuickFilterByTag_Items",
+								"converters": [
+									{
+										"converter": "crt.QuickFilterAttributeConverter",
+										"args": [
+											{
+												"target": {
+													"viewAttributeName": "Items"
+												},
+												"quickFilterType": "lookup"
+											}
+										]
+									}
+								]
+							}
+						],
+						"from": "LookupQuickFilterByTag_Value"
+					}
+				}
+			},
+			{
+				"operation": "merge",
 				"name": "FolderTree",
 				"values": {
 					"sourceSchemaName": "ContactFolder",
@@ -27,24 +62,13 @@ define("SHCandidates_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 				"values": {
 					"columns": [
 						{
-							"id": "f252f581-0ccf-44ac-b7c9-c00df2ad9919",
-							"code": "PDS_Name",
-							"caption": "#ResourceString(PDS_Name)#",
-							"dataValueType": 1
-						},
-						{
-							"id": "c8689d78-80ba-4e71-8cf2-fa478e3be5bc",
-							"code": "PDS_CreatedOn",
-							"caption": "#ResourceString(PDS_CreatedOn)#",
-							"dataValueType": 7
-						},
-						{
-							"id": "fd4b3485-a46e-4219-b775-adef1210fe51",
+							"id": "a8b08dcc-e23f-9748-be2c-bfa1833b8a1c",
 							"code": "PDS_CreatedBy",
 							"caption": "#ResourceString(PDS_CreatedBy)#",
 							"dataValueType": 10
 						}
-					]
+					],
+					"placeholder": false
 				}
 			},
 			{
@@ -53,12 +77,7 @@ define("SHCandidates_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 				"values": {
 					"_designOptions": {
 						"entitySchemaName": "Contact",
-						"dependencies": [
-							{
-								"attributePath": "Id",
-								"relationPath": "PDS.Id"
-							}
-						],
+						"dependencies": [],
 						"filters": []
 					}
 				}
@@ -72,41 +91,7 @@ define("SHCandidates_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 				],
 				"values": {
 					"Items_PredefinedFilter": {
-						"value": {
-							"items": {
-								"9ddc923b-8d6b-4a3e-8095-64cae4d81e4c": {
-									"filterType": 4,
-									"comparisonType": 3,
-									"isEnabled": true,
-									"trimDateTimeParameterToDate": false,
-									"leftExpression": {
-										"expressionType": 0,
-										"columnPath": "Type"
-									},
-									"isAggregative": false,
-									"dataValueType": 10,
-									"referenceSchemaName": "ContactType",
-									"rightExpressions": [
-										{
-											"expressionType": 2,
-											"parameter": {
-												"dataValueType": 10,
-												"value": {
-													"Name": "Candidate",
-													"Id": "4849e68c-faa1-4c2c-8cb7-85e08ba25dcf",
-													"value": "4849e68c-faa1-4c2c-8cb7-85e08ba25dcf",
-													"displayValue": "Candidate"
-												}
-											}
-										}
-									]
-								}
-							},
-							"logicalOperation": 0,
-							"isEnabled": true,
-							"filterType": 6,
-							"rootSchemaName": "Contact"
-						}
+						"value": null
 					}
 				}
 			},
@@ -119,25 +104,46 @@ define("SHCandidates_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 					"attributes"
 				],
 				"values": {
-					"PDS_Name": {
-						"modelConfig": {
-							"path": "PDS.Name"
-						}
-					},
-					"PDS_CreatedOn": {
-						"modelConfig": {
-							"path": "PDS.CreatedOn"
-						}
-					},
 					"PDS_CreatedBy": {
 						"modelConfig": {
 							"path": "PDS.CreatedBy"
 						}
 					}
 				}
+			},
+			{
+				"operation": "merge",
+				"path": [
+					"attributes",
+					"Items",
+					"modelConfig"
+				],
+				"values": {
+					"filterAttributes": [
+						{
+							"name": "LookupQuickFilterByTag_Items",
+							"loadOnChange": true
+						},
+						{
+							"name": "SearchFilter_Items",
+							"loadOnChange": true
+						},
+						{
+							"loadOnChange": true,
+							"name": "Items_PredefinedFilter"
+						}
+					]
+				}
 			}
 		]/**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/,
 		modelConfigDiff: /**SCHEMA_MODEL_CONFIG_DIFF*/[
+			{
+				"operation": "remove",
+				"path": [],
+				"properties": [
+					"dependencies"
+				]
+			},
 			{
 				"operation": "merge",
 				"path": [
@@ -146,7 +152,12 @@ define("SHCandidates_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 					"config"
 				],
 				"values": {
-					"entitySchemaName": "Contact"
+					"entitySchemaName": "SHCandidate",
+					"attributes": {
+						"CreatedBy": {
+							"path": "CreatedBy"
+						}
+					}
 				}
 			}
 		]/**SCHEMA_MODEL_CONFIG_DIFF*/,

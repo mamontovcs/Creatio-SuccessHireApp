@@ -41,9 +41,9 @@ namespace Terrasoft.Core.Process.Configuration {
 			var skillsScore = vacancySkills.Count > 0
 				? (decimal)matched / vacancySkills.Count * skillsWeight
 				: 0;
-			var ageDiff = Math.Abs(candidateEntity.GetTypedColumnValue<int>("Age")
-								- vacancyEntity.GetTypedColumnValue<int>("SHRequiredAge"));
-			var ageScore = ageDiff <= 5 ? maximumAgeWeight : (ageDiff <= 10 ? minimumAgeWeight : 0);
+			var vacancyAge = vacancyEntity.GetTypedColumnValue<int>("SHRequiredAge");
+			var ageDiff = Math.Abs(candidateEntity.GetTypedColumnValue<int>("Age") - vacancyAge);
+			var ageScore = vacancyAge == 0 ? maximumAgeWeight : ageDiff <= 5 ? maximumAgeWeight : (ageDiff <= 10 ? minimumAgeWeight : 0);
 			var cityScore = candidateEntity.GetTypedColumnValue<string>("City_Name")
 								== vacancyEntity.GetTypedColumnValue<string>("City_Name") ? cityWeight : 0;
 			return skillsScore + ageScore + cityScore;

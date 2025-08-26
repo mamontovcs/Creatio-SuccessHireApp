@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "99d41df5-5cd1-491f-9c4b-f93d299e2252",
+    "Name": "SHCandidate_FormPage",
+    "ModifiedOnUtc": "\/Date(1756231522000)\/",
+    "Parent": {
+      "UId": "5f8dd430-acf2-4e1a-80c8-77cf57e245ce",
+      "Name": "PageWithRightAreaAndTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Candidate form page"
+  }
+}
