@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Candidate form page" />
+			<Item Name="LocalizableStrings.ExpansionPanel_d01kju3_title.Value" Value="Совпадения по вакансиям" />
 		</Items>
 	</Group>
 </Resources>

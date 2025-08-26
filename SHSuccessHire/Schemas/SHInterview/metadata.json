@@ -33,7 +33,8 @@
   "E2": 1,
   "E6": true,
   "E20": true,
-  "E17": "SHCandidateId"
+  "E17": "SHCandidateId",
+  "E18": "SHCandidateSHTitle"
 }
 + MetaData.Schema.D2 {
   "UId": "e76014b9-5ec7-832e-2760-405d22f28690",

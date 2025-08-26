@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Vacancy form page" />
+			<Item Name="LocalizableStrings.ExpansionPanel_b1uqvtl_title.Value" Value="Подходящие кандидаты" />
 			<Item Name="LocalizableStrings.FeedTabContainer_caption.Value" Value="Лента" />
 			<Item Name="LocalizableStrings.StartSearchButton_caption.Value" Value="Запустить поиск" />
 		</Items>

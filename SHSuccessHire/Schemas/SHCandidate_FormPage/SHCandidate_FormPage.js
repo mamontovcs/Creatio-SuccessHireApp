@@ -93,6 +93,636 @@ define("SHCandidate_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 			},
 			{
 				"operation": "insert",
+				"name": "GridContainer_8fzu3ll",
+				"values": {
+					"type": "crt.GridContainer",
+					"columns": [
+						"minmax(32px, 1fr)"
+					],
+					"rows": "minmax(max-content, 32px)",
+					"gap": {
+						"columnGap": "large",
+						"rowGap": "none"
+					},
+					"items": [],
+					"fitContent": true,
+					"visible": true,
+					"color": "transparent",
+					"borderRadius": "none",
+					"padding": {
+						"top": "none",
+						"right": "none",
+						"bottom": "none",
+						"left": "none"
+					},
+					"alignItems": "stretch"
+				},
+				"parentName": "GeneralInfoTab",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "ExpansionPanel_d01kju3",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ExpansionPanel",
+					"tools": [],
+					"items": [],
+					"title": "#ResourceString(ExpansionPanel_d01kju3_title)#",
+					"toggleType": "default",
+					"togglePosition": "before",
+					"expanded": false,
+					"labelColor": "auto",
+					"fullWidthHeader": false,
+					"titleWidth": 20,
+					"padding": {
+						"top": "small",
+						"bottom": "medium",
+						"left": "none",
+						"right": "none"
+					},
+					"fitContent": true,
+					"visible": true,
+					"alignItems": "stretch"
+				},
+				"parentName": "GridContainer_8fzu3ll",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_j2e2vd9",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 24px)",
+					"columns": [
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": []
+				},
+				"parentName": "ExpansionPanel_d01kju3",
+				"propertyName": "tools",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "FlexContainer_q5c07vh",
+				"values": {
+					"type": "crt.FlexContainer",
+					"direction": "row",
+					"gap": "none",
+					"alignItems": "center",
+					"items": [],
+					"layoutConfig": {
+						"colSpan": 1,
+						"column": 1,
+						"row": 1,
+						"rowSpan": 1
+					}
+				},
+				"parentName": "GridContainer_j2e2vd9",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailAddBtn_imvxv5k",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailAddBtn_imvxv5k_caption)#",
+					"icon": "add-button-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.CreateRecordRequest",
+						"params": {
+							"entityName": "SHVacancyCandidate"
+						}
+					}
+				},
+				"parentName": "FlexContainer_q5c07vh",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailRefreshBtn_9g426op",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailRefreshBtn_9g426op_caption)#",
+					"icon": "reload-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.LoadDataRequest",
+						"params": {
+							"config": {
+								"loadType": "reload"
+							},
+							"dataSourceName": "GridDetail_36u4nnfDS"
+						}
+					}
+				},
+				"parentName": "FlexContainer_q5c07vh",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailSettingsBtn_3znueaa",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailSettingsBtn_3znueaa_caption)#",
+					"icon": "actions-button-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clickMode": "menu",
+					"menuItems": []
+				},
+				"parentName": "FlexContainer_q5c07vh",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailExportDataBtn_wq5bdsg",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(GridDetailExportDataBtn_wq5bdsg_caption)#",
+					"icon": "export-button-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.ExportDataGridToExcelRequest",
+						"params": {
+							"viewName": "GridDetail_36u4nnf"
+						}
+					}
+				},
+				"parentName": "GridDetailSettingsBtn_3znueaa",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailImportDataBtn_us67bsc",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(GridDetailImportDataBtn_us67bsc_caption)#",
+					"icon": "import-button-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.ImportDataRequest",
+						"params": {
+							"entitySchemaName": "SHVacancyCandidate"
+						}
+					}
+				},
+				"parentName": "GridDetailSettingsBtn_3znueaa",
+				"propertyName": "menuItems",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailSearchFilter_evvsdsf",
+				"values": {
+					"type": "crt.SearchFilter",
+					"placeholder": "#ResourceString(GridDetailSearchFilter_evvsdsf_placeholder)#",
+					"iconOnly": true,
+					"_filterOptions": {
+						"expose": [
+							{
+								"attribute": "GridDetailSearchFilter_evvsdsf_GridDetail_36u4nnf",
+								"converters": [
+									{
+										"converter": "crt.SearchFilterAttributeConverter",
+										"args": [
+											"GridDetail_36u4nnf"
+										]
+									}
+								]
+							}
+						],
+						"from": [
+							"GridDetailSearchFilter_evvsdsf_SearchValue",
+							"GridDetailSearchFilter_evvsdsf_FilteredColumnsGroups"
+						]
+					}
+				},
+				"parentName": "FlexContainer_q5c07vh",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_bu3diiy",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 32px)",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": []
+				},
+				"parentName": "ExpansionPanel_d01kju3",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetail_36u4nnf",
+				"values": {
+					"type": "crt.DataGrid",
+					"layoutConfig": {
+						"colSpan": 2,
+						"column": 1,
+						"row": 1,
+						"rowSpan": 6
+					},
+					"features": {
+						"rows": {
+							"selection": false,
+							"numeration": true
+						},
+						"editable": {
+							"enable": false,
+							"itemsCreation": false,
+							"floatingEditPanel": false
+						}
+					},
+					"items": "$GridDetail_36u4nnf",
+					"visible": true,
+					"fitContent": true,
+					"primaryColumnName": "GridDetail_36u4nnfDS_Id",
+					"columns": [
+						{
+							"id": "48b69e9e-cc92-0f6b-9753-30609dd3ecd9",
+							"code": "GridDetail_36u4nnfDS_SHVacancy",
+							"caption": "#ResourceString(GridDetail_36u4nnfDS_SHVacancy)#",
+							"dataValueType": 10,
+							"width": 502
+						},
+						{
+							"id": "71c2cfeb-6131-be1b-1239-3f941305a93d",
+							"code": "GridDetail_36u4nnfDS_SHMatchScore",
+							"caption": "#ResourceString(GridDetail_36u4nnfDS_SHMatchScore)#",
+							"dataValueType": 32
+						}
+					],
+					"placeholder": false
+				},
+				"parentName": "GridContainer_bu3diiy",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_1low4p4",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 2,
+						"rowSpan": 1
+					},
+					"type": "crt.GridContainer",
+					"columns": [
+						"minmax(32px, 1fr)"
+					],
+					"rows": "minmax(max-content, 32px)",
+					"gap": {
+						"columnGap": "large",
+						"rowGap": "none"
+					},
+					"items": [],
+					"fitContent": true,
+					"visible": true,
+					"color": "transparent",
+					"borderRadius": "none",
+					"padding": {
+						"top": "none",
+						"right": "none",
+						"bottom": "none",
+						"left": "none"
+					},
+					"alignItems": "stretch"
+				},
+				"parentName": "GridContainer_8fzu3ll",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "ExpansionPanel_sw5fqo6",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ExpansionPanel",
+					"tools": [],
+					"items": [],
+					"title": "#ResourceString(ExpansionPanel_sw5fqo6_title)#",
+					"toggleType": "default",
+					"togglePosition": "before",
+					"expanded": true,
+					"labelColor": "auto",
+					"fullWidthHeader": false,
+					"titleWidth": 20,
+					"padding": {
+						"top": "small",
+						"bottom": "small",
+						"left": "none",
+						"right": "none"
+					},
+					"fitContent": true,
+					"visible": true,
+					"alignItems": "stretch"
+				},
+				"parentName": "GridContainer_1low4p4",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_l1ruqh4",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 24px)",
+					"columns": [
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": []
+				},
+				"parentName": "ExpansionPanel_sw5fqo6",
+				"propertyName": "tools",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "FlexContainer_dpsjoom",
+				"values": {
+					"type": "crt.FlexContainer",
+					"direction": "row",
+					"gap": "none",
+					"alignItems": "center",
+					"items": [],
+					"layoutConfig": {
+						"colSpan": 1,
+						"column": 1,
+						"row": 1,
+						"rowSpan": 1
+					}
+				},
+				"parentName": "GridContainer_l1ruqh4",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailAddBtn_9202zff",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailAddBtn_9202zff_caption)#",
+					"icon": "add-button-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.CreateRecordRequest",
+						"params": {
+							"entityName": "SHInterview"
+						}
+					}
+				},
+				"parentName": "FlexContainer_dpsjoom",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailRefreshBtn_h95kj5j",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailRefreshBtn_h95kj5j_caption)#",
+					"icon": "reload-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.LoadDataRequest",
+						"params": {
+							"config": {
+								"loadType": "reload"
+							},
+							"dataSourceName": "GridDetail_mo9k204DS"
+						}
+					}
+				},
+				"parentName": "FlexContainer_dpsjoom",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailSettingsBtn_jjcctdk",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailSettingsBtn_jjcctdk_caption)#",
+					"icon": "actions-button-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clickMode": "menu",
+					"menuItems": []
+				},
+				"parentName": "FlexContainer_dpsjoom",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailExportDataBtn_4sgc5gr",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(GridDetailExportDataBtn_4sgc5gr_caption)#",
+					"icon": "export-button-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.ExportDataGridToExcelRequest",
+						"params": {
+							"viewName": "GridDetail_mo9k204"
+						}
+					}
+				},
+				"parentName": "GridDetailSettingsBtn_jjcctdk",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailImportDataBtn_kmitpa5",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(GridDetailImportDataBtn_kmitpa5_caption)#",
+					"icon": "import-button-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.ImportDataRequest",
+						"params": {
+							"entitySchemaName": "SHInterview"
+						}
+					}
+				},
+				"parentName": "GridDetailSettingsBtn_jjcctdk",
+				"propertyName": "menuItems",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailSearchFilter_ngfrad4",
+				"values": {
+					"type": "crt.SearchFilter",
+					"placeholder": "#ResourceString(GridDetailSearchFilter_ngfrad4_placeholder)#",
+					"iconOnly": true,
+					"_filterOptions": {
+						"expose": [
+							{
+								"attribute": "GridDetailSearchFilter_ngfrad4_GridDetail_mo9k204",
+								"converters": [
+									{
+										"converter": "crt.SearchFilterAttributeConverter",
+										"args": [
+											"GridDetail_mo9k204"
+										]
+									}
+								]
+							}
+						],
+						"from": [
+							"GridDetailSearchFilter_ngfrad4_SearchValue",
+							"GridDetailSearchFilter_ngfrad4_FilteredColumnsGroups"
+						]
+					}
+				},
+				"parentName": "FlexContainer_dpsjoom",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_xs871zn",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 32px)",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": []
+				},
+				"parentName": "ExpansionPanel_sw5fqo6",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetail_mo9k204",
+				"values": {
+					"type": "crt.DataGrid",
+					"layoutConfig": {
+						"colSpan": 2,
+						"column": 1,
+						"row": 1,
+						"rowSpan": 6
+					},
+					"features": {
+						"rows": {
+							"selection": {
+								"enable": true,
+								"multiple": true
+							}
+						}
+					},
+					"items": "$GridDetail_mo9k204",
+					"primaryColumnName": "GridDetail_mo9k204DS_Id",
+					"columns": [
+						{
+							"id": "134ee0ed-59bc-730d-1aa3-d760be4b7fff",
+							"code": "GridDetail_mo9k204DS_SHName",
+							"caption": "#ResourceString(GridDetail_mo9k204DS_SHName)#",
+							"dataValueType": 28
+						},
+						{
+							"id": "32ebfce8-1ab7-2829-7a6b-0203bf19bb06",
+							"code": "GridDetail_mo9k204DS_SHVacancy",
+							"caption": "#ResourceString(GridDetail_mo9k204DS_SHVacancy)#",
+							"dataValueType": 10
+						},
+						{
+							"id": "044fb26e-3f50-d36c-157f-64e36eda59cd",
+							"code": "GridDetail_mo9k204DS_SHCandidate",
+							"caption": "#ResourceString(GridDetail_mo9k204DS_SHCandidate)#",
+							"dataValueType": 10
+						},
+						{
+							"id": "cd2d2dac-984d-e615-a67e-e61edfbe725d",
+							"code": "GridDetail_mo9k204DS_SHInterviewStatus",
+							"caption": "#ResourceString(GridDetail_mo9k204DS_SHInterviewStatus)#",
+							"dataValueType": 10
+						}
+					],
+					"placeholder": false
+				},
+				"parentName": "GridContainer_xs871zn",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "Label_zpekin4",
 				"values": {
 					"layoutConfig": {
@@ -199,6 +829,78 @@ define("SHCandidate_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 						"modelConfig": {
 							"path": "CandidateDS.ModifiedOn"
 						}
+					},
+					"GridDetail_36u4nnf": {
+						"isCollection": true,
+						"modelConfig": {
+							"path": "GridDetail_36u4nnfDS",
+							"filterAttributes": [
+								{
+									"name": "GridDetailSearchFilter_evvsdsf_GridDetail_36u4nnf",
+									"loadOnChange": true
+								}
+							]
+						},
+						"viewModelConfig": {
+							"attributes": {
+								"GridDetail_36u4nnfDS_SHVacancy": {
+									"modelConfig": {
+										"path": "GridDetail_36u4nnfDS.SHVacancy"
+									}
+								},
+								"GridDetail_36u4nnfDS_SHMatchScore": {
+									"modelConfig": {
+										"path": "GridDetail_36u4nnfDS.SHMatchScore"
+									}
+								},
+								"GridDetail_36u4nnfDS_Id": {
+									"modelConfig": {
+										"path": "GridDetail_36u4nnfDS.Id"
+									}
+								}
+							}
+						}
+					},
+					"GridDetail_mo9k204": {
+						"isCollection": true,
+						"modelConfig": {
+							"path": "GridDetail_mo9k204DS",
+							"filterAttributes": [
+								{
+									"name": "GridDetailSearchFilter_ngfrad4_GridDetail_mo9k204",
+									"loadOnChange": true
+								}
+							]
+						},
+						"viewModelConfig": {
+							"attributes": {
+								"GridDetail_mo9k204DS_SHName": {
+									"modelConfig": {
+										"path": "GridDetail_mo9k204DS.SHName"
+									}
+								},
+								"GridDetail_mo9k204DS_SHVacancy": {
+									"modelConfig": {
+										"path": "GridDetail_mo9k204DS.SHVacancy"
+									}
+								},
+								"GridDetail_mo9k204DS_SHCandidate": {
+									"modelConfig": {
+										"path": "GridDetail_mo9k204DS.SHCandidate"
+									}
+								},
+								"GridDetail_mo9k204DS_SHInterviewStatus": {
+									"modelConfig": {
+										"path": "GridDetail_mo9k204DS.SHInterviewStatus"
+									}
+								},
+								"GridDetail_mo9k204DS_Id": {
+									"modelConfig": {
+										"path": "GridDetail_mo9k204DS.Id"
+									}
+								}
+							}
+						}
 					}
 				}
 			}
@@ -239,11 +941,59 @@ define("SHCandidate_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 									}
 								}
 							}
+						},
+						"GridDetail_36u4nnfDS": {
+							"type": "crt.EntityDataSource",
+							"scope": "viewElement",
+							"config": {
+								"entitySchemaName": "SHVacancyCandidate",
+								"attributes": {
+									"SHVacancy": {
+										"path": "SHVacancy"
+									},
+									"SHMatchScore": {
+										"path": "SHMatchScore"
+									}
+								}
+							}
+						},
+						"GridDetail_mo9k204DS": {
+							"type": "crt.EntityDataSource",
+							"scope": "viewElement",
+							"config": {
+								"entitySchemaName": "SHInterview",
+								"attributes": {
+									"SHName": {
+										"path": "SHName"
+									},
+									"SHVacancy": {
+										"path": "SHVacancy"
+									},
+									"SHCandidate": {
+										"path": "SHCandidate"
+									},
+									"SHInterviewStatus": {
+										"path": "SHInterviewStatus"
+									}
+								}
+							}
 						}
 					},
 					"primaryDataSourceName": "CandidateDS",
 					"dependencies": {
 						"DataGrid_m4f2ov8DS": [
+							{
+								"attributePath": "SHCandidate",
+								"relationPath": "CandidateDS.Id"
+							}
+						],
+						"GridDetail_36u4nnfDS": [
+							{
+								"attributePath": "SHCandidate",
+								"relationPath": "CandidateDS.Id"
+							}
+						],
+						"GridDetail_mo9k204DS": [
 							{
 								"attributePath": "SHCandidate",
 								"relationPath": "CandidateDS.Id"

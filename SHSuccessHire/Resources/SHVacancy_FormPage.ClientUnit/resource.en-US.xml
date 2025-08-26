@@ -4,7 +4,14 @@
 		<Items>
 			<Item Name="Caption" Value="Vacancy form page" />
 			<Item Name="LocalizableStrings.addRecord_ff4vxq8_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.ExpansionPanel_b1uqvtl_title.Value" Value="Suitable candidates" />
 			<Item Name="LocalizableStrings.FeedTabContainer_caption.Value" Value="Skills" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_vertlqf_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_xw4vu4z_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_ceaysss_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_r0fipg6_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_zhjxqcs_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_haio3ui_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.Skills_caption.Value" Value="Requirement skills" />
 			<Item Name="LocalizableStrings.StartSearchButton_caption.Value" Value="Start search" />
 		</Items>

@@ -4,6 +4,20 @@
 		<Items>
 			<Item Name="Caption" Value="Candidate form page" />
 			<Item Name="LocalizableStrings.addRecord_6xz55ld_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.ExpansionPanel_d01kju3_title.Value" Value="Vacancy matches" />
+			<Item Name="LocalizableStrings.ExpansionPanel_sw5fqo6_title.Value" Value="Inverviews" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_9202zff_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_imvxv5k_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_4sgc5gr_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_wq5bdsg_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_kmitpa5_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_us67bsc_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_9g426op_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_h95kj5j_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_evvsdsf_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_ngfrad4_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_3znueaa_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_jjcctdk_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.Label_zpekin4_caption.Value" Value="Skills" />
 		</Items>
 	</Group>
