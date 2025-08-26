@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "222d05c2-2d41-4feb-b94f-d0ad13e43274",
     "Name": "SHProcessCandidate",
-    "ModifiedOnUtc": "\/Date(1756240137000)\/",
+    "ModifiedOnUtc": "\/Date(1756241126000)\/",
     "ManagerName": "ProcessSchemaManager",
     "Caption": "Process candidate",
     "DependsOn": []

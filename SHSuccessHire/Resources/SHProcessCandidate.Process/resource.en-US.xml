@@ -43,7 +43,8 @@
 			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Property.Caption" Value="Properties" />
 			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.QueueItem.Caption" Value="Queue item" />
 			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Recommendation.Caption" Value="Recommendation" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Recommendation.DisplayValue" Value="&quot;Please, update the following candidate.&quot; + [#Match candidate.Candidate#]" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Recommendation.DisplayValue" Value="Please, update the connected candidate." />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Recommendation.Value" Value="Please, update the connected candidate." />
 			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Release.Caption" Value="Release" />
 			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.RemindBefore.Caption" Value="Remind owner in advance" />
 			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.RemindBefore.DisplayValue" Value="0" />

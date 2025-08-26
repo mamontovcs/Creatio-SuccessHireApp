@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "ebf20aec-e607-4502-9677-87411a84bb7d",
+    "Name": "SHProcessInterviewResults",
+    "ModifiedOnUtc": "\/Date(1756242402000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Process interview results",
+    "DependsOn": []
+  }
+}

@@ -612,8 +612,8 @@
           "GT5": "ea556634-d640-4462-9f9c-9da998c973d0",
           "GT4": "b5c726f2-af5b-4381-bac6-913074144308",
           "GT1": {
-            "GS1": 3,
-            "GS2": "\"Please, update the following candidate.\" + [#[IsOwnerSchema:false].[IsSchema:false].[Element:{1470ad8b-fa5c-4685-909f-a9d41df4e7d0}].[Parameter:{5bcbe456-20ad-44ac-a40c-7fb60f30fa43}]#]",
+            "GS1": 1,
+            "GS2": "Please, update the connected candidate.",
             "GS5": "222d05c2-2d41-4feb-b94f-d0ad13e43274"
           }
         },
@@ -2085,8 +2085,7 @@
               "IL2": "b55a050d-45b6-4aa8-92a8-7beffe4cf0f7",
               "L1": "95c6e6c4-2cc8-46be-a1cb-96f942655f86",
               "L8": {
-                "GS1": 3,
-                "GS2": "\"Please, update the following candidate.\" + [#[IsOwnerSchema:false].[IsSchema:false].[Element:{1470ad8b-fa5c-4685-909f-a9d41df4e7d0}].[Parameter:{5bcbe456-20ad-44ac-a40c-7fb60f30fa43}]#]",
+                "GS1": 1,
                 "GS5": "222d05c2-2d41-4feb-b94f-d0ad13e43274"
               }
             },

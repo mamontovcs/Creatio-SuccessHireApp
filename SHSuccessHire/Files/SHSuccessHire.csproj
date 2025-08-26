@@ -411,23 +411,23 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtWebhookServiceBase">
-			<HintPath>$(RelativePkgFolderPath)/CrtWebhookServiceBase/$(StandalonePackageAssemblyPath)/CrtWebhookServiceBase.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="CSP">
 			<HintPath>$(RelativePkgFolderPath)/CSP/$(StandalonePackageAssemblyPath)/CSP.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtCopilot">
-			<HintPath>$(RelativePkgFolderPath)/CrtCopilot/$(StandalonePackageAssemblyPath)/CrtCopilot.dll</HintPath>
+		<Reference Include="CrtWebhookServiceBase">
+			<HintPath>$(RelativePkgFolderPath)/CrtWebhookServiceBase/$(StandalonePackageAssemblyPath)/CrtWebhookServiceBase.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
 		<Reference Include="CrtWebFormBase">
 			<HintPath>$(RelativePkgFolderPath)/CrtWebFormBase/$(StandalonePackageAssemblyPath)/CrtWebFormBase.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtCopilot">
+			<HintPath>$(RelativePkgFolderPath)/CrtCopilot/$(StandalonePackageAssemblyPath)/CrtCopilot.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -451,33 +451,18 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="CrtOmnichannelApp">
+			<HintPath>$(RelativePkgFolderPath)/CrtOmnichannelApp/$(StandalonePackageAssemblyPath)/CrtOmnichannelApp.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="SsoSettings">
 			<HintPath>$(RelativePkgFolderPath)/SsoSettings/$(StandalonePackageAssemblyPath)/SsoSettings.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="OpenIdAuth">
-			<HintPath>$(RelativePkgFolderPath)/OpenIdAuth/$(StandalonePackageAssemblyPath)/OpenIdAuth.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="CrtCopilotStudio">
-			<HintPath>$(RelativePkgFolderPath)/CrtCopilotStudio/$(StandalonePackageAssemblyPath)/CrtCopilotStudio.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="MLProcessDesigner">
 			<HintPath>$(RelativePkgFolderPath)/MLProcessDesigner/$(StandalonePackageAssemblyPath)/MLProcessDesigner.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="CrtTranslation">
-			<HintPath>$(RelativePkgFolderPath)/CrtTranslation/$(StandalonePackageAssemblyPath)/CrtTranslation.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="CrtOmnichannelApp">
-			<HintPath>$(RelativePkgFolderPath)/CrtOmnichannelApp/$(StandalonePackageAssemblyPath)/CrtOmnichannelApp.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -488,6 +473,21 @@
 		</Reference>
 		<Reference Include="CrtDataForge">
 			<HintPath>$(RelativePkgFolderPath)/CrtDataForge/$(StandalonePackageAssemblyPath)/CrtDataForge.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtTranslation">
+			<HintPath>$(RelativePkgFolderPath)/CrtTranslation/$(StandalonePackageAssemblyPath)/CrtTranslation.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="OpenIdAuth">
+			<HintPath>$(RelativePkgFolderPath)/OpenIdAuth/$(StandalonePackageAssemblyPath)/OpenIdAuth.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtCopilotStudio">
+			<HintPath>$(RelativePkgFolderPath)/CrtCopilotStudio/$(StandalonePackageAssemblyPath)/CrtCopilotStudio.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -506,11 +506,6 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtProductivityCopilot">
-			<HintPath>$(RelativePkgFolderPath)/CrtProductivityCopilot/$(StandalonePackageAssemblyPath)/CrtProductivityCopilot.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="CrtProductivityMobile">
 			<HintPath>$(RelativePkgFolderPath)/CrtProductivityMobile/$(StandalonePackageAssemblyPath)/CrtProductivityMobile.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -521,23 +516,8 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtProductivityApp">
-			<HintPath>$(RelativePkgFolderPath)/CrtProductivityApp/$(StandalonePackageAssemblyPath)/CrtProductivityApp.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="CrtUserLevelSchema">
-			<HintPath>$(RelativePkgFolderPath)/CrtUserLevelSchema/$(StandalonePackageAssemblyPath)/CrtUserLevelSchema.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="CrtSpecification">
-			<HintPath>$(RelativePkgFolderPath)/CrtSpecification/$(StandalonePackageAssemblyPath)/CrtSpecification.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="CrtAIEmbedded">
-			<HintPath>$(RelativePkgFolderPath)/CrtAIEmbedded/$(StandalonePackageAssemblyPath)/CrtAIEmbedded.dll</HintPath>
+		<Reference Include="CrtProductivityCopilot">
+			<HintPath>$(RelativePkgFolderPath)/CrtProductivityCopilot/$(StandalonePackageAssemblyPath)/CrtProductivityCopilot.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -546,8 +526,28 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="CrtAIEmbedded">
+			<HintPath>$(RelativePkgFolderPath)/CrtAIEmbedded/$(StandalonePackageAssemblyPath)/CrtAIEmbedded.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="CrtTechnicalUsers">
 			<HintPath>$(RelativePkgFolderPath)/CrtTechnicalUsers/$(StandalonePackageAssemblyPath)/CrtTechnicalUsers.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtUserLevelSchema">
+			<HintPath>$(RelativePkgFolderPath)/CrtUserLevelSchema/$(StandalonePackageAssemblyPath)/CrtUserLevelSchema.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtProductivityApp">
+			<HintPath>$(RelativePkgFolderPath)/CrtProductivityApp/$(StandalonePackageAssemblyPath)/CrtProductivityApp.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtSpecification">
+			<HintPath>$(RelativePkgFolderPath)/CrtSpecification/$(StandalonePackageAssemblyPath)/CrtSpecification.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -596,13 +596,13 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtCustomer360Mobile">
-			<HintPath>$(RelativePkgFolderPath)/CrtCustomer360Mobile/$(StandalonePackageAssemblyPath)/CrtCustomer360Mobile.dll</HintPath>
+		<Reference Include="CrtCase7x">
+			<HintPath>$(RelativePkgFolderPath)/CrtCase7x/$(StandalonePackageAssemblyPath)/CrtCase7x.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtCase7x">
-			<HintPath>$(RelativePkgFolderPath)/CrtCase7x/$(StandalonePackageAssemblyPath)/CrtCase7x.dll</HintPath>
+		<Reference Include="CrtCustomer360Mobile">
+			<HintPath>$(RelativePkgFolderPath)/CrtCustomer360Mobile/$(StandalonePackageAssemblyPath)/CrtCustomer360Mobile.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -686,13 +686,13 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtEmailDesigner">
-			<HintPath>$(RelativePkgFolderPath)/CrtEmailDesigner/$(StandalonePackageAssemblyPath)/CrtEmailDesigner.dll</HintPath>
+		<Reference Include="CrtMLLeadConversion">
+			<HintPath>$(RelativePkgFolderPath)/CrtMLLeadConversion/$(StandalonePackageAssemblyPath)/CrtMLLeadConversion.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtMLLeadConversion">
-			<HintPath>$(RelativePkgFolderPath)/CrtMLLeadConversion/$(StandalonePackageAssemblyPath)/CrtMLLeadConversion.dll</HintPath>
+		<Reference Include="CrtEmailDesigner">
+			<HintPath>$(RelativePkgFolderPath)/CrtEmailDesigner/$(StandalonePackageAssemblyPath)/CrtEmailDesigner.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
