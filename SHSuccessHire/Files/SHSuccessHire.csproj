@@ -783,6 +783,7 @@
 		<Compile Remove="$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHCandidateSkill/SHCandidateSkill.cs" Condition="Exists('$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHCandidateSkill/SHCandidateSkill.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHCandidateStatus/SHCandidateStatus.cs" Condition="Exists('$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHCandidateStatus/SHCandidateStatus.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHInterview/SHInterview.cs" Condition="Exists('$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHInterview/SHInterview.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHInterviewStatus/SHInterviewStatus.cs" Condition="Exists('$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHInterviewStatus/SHInterviewStatus.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHSkill/SHSkill.cs" Condition="Exists('$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHSkill/SHSkill.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHVacancy/SHVacancy.cs" Condition="Exists('$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHVacancy/SHVacancy.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHVacancyCandidate/SHVacancyCandidate.cs" Condition="Exists('$(RelativePkgFolderPath)/SHSuccessHire/Schemas/SHVacancyCandidate/SHVacancyCandidate.cs')" />

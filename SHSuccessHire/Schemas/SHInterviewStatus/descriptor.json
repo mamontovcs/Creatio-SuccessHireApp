@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "91371889-6871-4ece-84a5-7a2ccb73f549",
+    "Name": "SHInterviewStatus",
+    "ModifiedOnUtc": "\/Date(1756187791000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Interview status",
+    "DependsOn": []
+  }
+}

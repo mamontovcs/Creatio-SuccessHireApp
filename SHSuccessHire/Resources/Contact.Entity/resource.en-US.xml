@@ -3,13 +3,8 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Candidate" />
-			<Item Name="Columns.AdCampaign.Caption" Value="Ad campaign" />
-			<Item Name="Columns.Channel.Caption" Value="Channel" />
-			<Item Name="Columns.CustomerNeed.Caption" Value="Customer need" />
-			<Item Name="Columns.IsNonActualEmail.Caption" Value="Invalid email" />
-			<Item Name="Columns.LeadConversionScore.Caption" Value="Lead conversion score" />
-			<Item Name="Columns.RegisterMethod.Caption" Value="Registration method" />
-			<Item Name="Columns.Source.Caption" Value="Source" />
+			<Item Name="Columns.SHCandidateStatus.Caption" Value="Candidate status" />
+			<Item Name="Columns.SHUpdatedOn.Caption" Value="UpdatedOn" />
 		</Items>
 	</Group>
 </Resources>
