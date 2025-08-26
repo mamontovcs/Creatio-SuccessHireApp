@@ -5,6 +5,7 @@
 			<Item Name="Caption" Value="Собеседование" />
 			<Item Name="Columns.SHAccount.Caption" Value="Контрагент" />
 			<Item Name="Columns.SHCandidate.Caption" Value="Кандидат" />
+			<Item Name="Columns.SHInterviewStatus.Caption" Value="Статус собеседования" />
 			<Item Name="Columns.SHName.Caption" Value="Название" />
 			<Item Name="Columns.SHVacancy.Caption" Value="Вакансия" />
 		</Items>

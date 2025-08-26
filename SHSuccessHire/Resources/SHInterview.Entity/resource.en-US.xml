@@ -5,6 +5,7 @@
 			<Item Name="Caption" Value="Interview" />
 			<Item Name="Columns.SHAccount.Caption" Value="Account" />
 			<Item Name="Columns.SHCandidate.Caption" Value="Candidate" />
+			<Item Name="Columns.SHInterviewStatus.Caption" Value="Interview status" />
 			<Item Name="Columns.SHName.Caption" Value="Name" />
 			<Item Name="Columns.SHVacancy.Caption" Value="Vacancy" />
 		</Items>

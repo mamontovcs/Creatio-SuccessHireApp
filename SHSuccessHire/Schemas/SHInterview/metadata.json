@@ -72,7 +72,21 @@
   "A5": "103d2416-f2e6-45b7-bd2a-d0eda3f808ed",
   "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","e9f0f2a8-499c-b4f5-d22c-1fb08865797c","e76014b9-5ec7-832e-2760-405d22f28690","d5951b72-71fc-2201-d088-177a0863a027","f4aa2095-550f-8548-4689-966517de2297"]
++ MetaData.Schema.D2 {
+  "UId": "a5e7eedc-1adc-565c-e858-c9ba1c9fd940",
+  "A2": "SHInterviewStatus",
+  "A3": "4767e2ff-b79e-472e-8d8d-e7a15c060759",
+  "A4": "4767e2ff-b79e-472e-8d8d-e7a15c060759",
+  "A5": "103d2416-f2e6-45b7-bd2a-d0eda3f808ed",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "91371889-6871-4ece-84a5-7a2ccb73f549",
+  "E2": 1,
+  "E6": true,
+  "E20": true,
+  "E17": "SHInterviewStatusId",
+  "E18": "SHInterviewStatusName"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","e9f0f2a8-499c-b4f5-d22c-1fb08865797c","e76014b9-5ec7-832e-2760-405d22f28690","d5951b72-71fc-2201-d088-177a0863a027","f4aa2095-550f-8548-4689-966517de2297","a5e7eedc-1adc-565c-e858-c9ba1c9fd940"]
 = MetaData.Schema.D20.A2 "SHInterviewEvents"
 = MetaData.Schema.D36.A3 "4767e2ff-b79e-472e-8d8d-e7a15c060759"
 = MetaData.Schema.D36.BS1 false
