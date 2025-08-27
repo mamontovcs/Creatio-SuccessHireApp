@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.3b4cf0d8-b953-5d69-2ee1-4430882ec0b7.Caption" Value="Hide elements: FlexWarningContainer" />
+			<Item Name="AddonConfig.Rules.aa1e7f08-c9bc-3b0b-1afd-559f759bd5a7.Caption" Value="Show elements: FlexWarningContainer" />
+			<Item Name="Caption" Value="Candidate form page (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

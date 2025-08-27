@@ -2,17 +2,18 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="BaseElements.ChangeDataUserTask1.Caption" Value="Set modified on date" />
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.EntitySchemaUId.Caption" Value="Object" />
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IgnoreErrors.Caption" Value="Continue execution on errors" />
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IgnoreErrors.DisplayValue" Value="false" />
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.DisplayValue" Value="true" />
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.RecordColumnValues.Caption" Value="Set column values" />
-			<Item Name="BaseElements.ReadCandidate.Caption" Value="Read candidate id" />
+			<Item Name="BaseElements.ChangeDateAndUpdateNeeded.Caption" Value="Set modified on date and no update needed" />
+			<Item Name="BaseElements.ChangeDateAndUpdateNeeded.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ChangeDateAndUpdateNeeded.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDateAndUpdateNeeded.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.ChangeDateAndUpdateNeeded.Parameters.EntitySchemaUId.Caption" Value="Object" />
+			<Item Name="BaseElements.ChangeDateAndUpdateNeeded.Parameters.IgnoreErrors.Caption" Value="Continue execution on errors" />
+			<Item Name="BaseElements.ChangeDateAndUpdateNeeded.Parameters.IgnoreErrors.DisplayValue" Value="false" />
+			<Item Name="BaseElements.ChangeDateAndUpdateNeeded.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
+			<Item Name="BaseElements.ChangeDateAndUpdateNeeded.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDateAndUpdateNeeded.Parameters.RecordColumnValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.ChangeDateAndUpdateNeeded.Parameters.RecordColumnValues.DisplayValue" Value="{&quot;$type&quot;:&quot;Terrasoft.Core.Process.LocalizableParameterValuesList, Terrasoft.Core&quot;,&quot;$values&quot;:[{&quot;ItemUId&quot;:&quot;ce0ed440-1189-4f98-8aed-78b696bc42b0&quot;,&quot;columnMetaPath&quot;:{&quot;value&quot;:&quot;9928edec-4272-425a-93bb-48743fee4b04&quot;},&quot;schemaUId&quot;:{&quot;value&quot;:&quot;f6851522-9556-46e7-a4a6-34a13a68b693&quot;},&quot;value&quot;:{&quot;value&quot;:&quot;[#SysVariable.CurrentDateTime#]&quot;},&quot;displayValue&quot;:{&quot;value&quot;:&quot;[#System variable.Current Time and Date#]&quot;},&quot;parameterValue&quot;:{&quot;value&quot;:&quot;{\&quot;$type\&quot;:\&quot;Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\&quot;,\&quot;Source\&quot;:3,\&quot;DisplayValue\&quot;:\&quot;\&quot;,\&quot;Value\&quot;:\&quot;\&quot;,\&quot;MetaPath\&quot;:null,\&quot;MetaDataValue\&quot;:null,\&quot;ModifiedInSchemaUId\&quot;:\&quot;00000000-0000-0000-0000-000000000000\&quot;,\&quot;SchemaUId\&quot;:\&quot;00000000-0000-0000-0000-000000000000\&quot;,\&quot;SchemaManagerName\&quot;:\&quot;\&quot;,\&quot;DataValueTypeUId\&quot;:\&quot;d21e9ef4-c064-4012-b286-fa1a8171da44\&quot;,\&quot;ReferenceSchemaUId\&quot;:\&quot;00000000-0000-0000-0000-000000000000\&quot;,\&quot;ResourceItemName\&quot;:null}&quot;}},{&quot;ItemUId&quot;:&quot;70958e59-9092-4686-81c4-88aad4abead5&quot;,&quot;columnMetaPath&quot;:{&quot;value&quot;:&quot;9d197f83-1bed-c413-cc9b-e77dd2be9011&quot;},&quot;schemaUId&quot;:{&quot;value&quot;:&quot;f6851522-9556-46e7-a4a6-34a13a68b693&quot;},&quot;value&quot;:{&quot;value&quot;:&quot;[#BooleanValue.False#]&quot;},&quot;displayValue&quot;:{&quot;value&quot;:&quot;[#Boolean value.False#]&quot;},&quot;parameterValue&quot;:{&quot;value&quot;:&quot;{\&quot;$type\&quot;:\&quot;Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\&quot;,\&quot;Source\&quot;:3,\&quot;DisplayValue\&quot;:\&quot;\&quot;,\&quot;Value\&quot;:\&quot;\&quot;,\&quot;MetaPath\&quot;:null,\&quot;MetaDataValue\&quot;:null,\&quot;ModifiedInSchemaUId\&quot;:\&quot;00000000-0000-0000-0000-000000000000\&quot;,\&quot;SchemaUId\&quot;:\&quot;00000000-0000-0000-0000-000000000000\&quot;,\&quot;SchemaManagerName\&quot;:\&quot;\&quot;,\&quot;DataValueTypeUId\&quot;:\&quot;90b65bf8-0ffc-4141-8779-2420877af907\&quot;,\&quot;ReferenceSchemaUId\&quot;:\&quot;00000000-0000-0000-0000-000000000000\&quot;,\&quot;ResourceItemName\&quot;:null}&quot;}}]}" />
+			<Item Name="BaseElements.ReadCandidate.Caption" Value="Read candidate id from CandidateSkill" />
 			<Item Name="BaseElements.ReadCandidate.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
 			<Item Name="BaseElements.ReadCandidate.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
 			<Item Name="BaseElements.ReadCandidate.Parameters.CanReadUncommitedData.DisplayValue" Value="true" />
@@ -34,10 +35,33 @@
 			<Item Name="BaseElements.ReadCandidate.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
 			<Item Name="BaseElements.ReadCandidate.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
 			<Item Name="BaseElements.ReadCandidate.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.ReadDataUserTask2.Caption" Value="Read candidate" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultDateTimeFunction.Caption" Value="Function result (Date/Time)" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultFloatFunction.Caption" Value="Function result (Decimal)" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultType.Caption" Value="Type of result" />
 			<Item Name="BaseElements.SkillAdded.Caption" Value="Added" />
 			<Item Name="BaseElements.SkillAdded.Parameters.RecordId.Caption" Value="Unique identifier of record" />
-			<Item Name="BaseElements.SkillModified.Caption" Value="Modified" />
+			<Item Name="BaseElements.SkillModified.Caption" Value="Modified skill" />
 			<Item Name="BaseElements.SkillModified.Parameters.RecordId.Caption" Value="Unique identifier of record" />
+			<Item Name="BaseElements.StartSignal1.Caption" Value="Modified &#xA;Candidate" />
+			<Item Name="BaseElements.StartSignal1.Parameters.RecordId.Caption" Value="Unique identifier of record" />
 			<Item Name="Caption" Value="Update candidate's last updated date" />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />

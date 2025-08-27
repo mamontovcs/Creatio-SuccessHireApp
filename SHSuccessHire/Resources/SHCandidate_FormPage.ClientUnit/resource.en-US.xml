@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Candidate form page" />
+			<Item Name="LocalizableStrings.addRecord_3ahs6t3_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_6xz55ld_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.ExpansionPanel_d01kju3_title.Value" Value="Vacancy matches" />
 			<Item Name="LocalizableStrings.ExpansionPanel_sw5fqo6_title.Value" Value="Inverviews" />
@@ -18,7 +19,11 @@
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_ngfrad4_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_3znueaa_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_jjcctdk_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.Label_2g6p1gv_caption.Value" Value="Warning:" />
+			<Item Name="LocalizableStrings.Label_t0x22mw_caption.Value" Value="Candidate should be updated!" />
 			<Item Name="LocalizableStrings.Label_zpekin4_caption.Value" Value="Skills" />
+			<Item Name="LocalizableStrings.WarningIcon_caption.Value" Value="Button" />
+			<Item Name="Parameters.d6e0bb08-eb19-5940-b473-edcb9b5baae2.Caption" Value="Date/Time 1" />
 		</Items>
 	</Group>
 </Resources>

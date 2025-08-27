@@ -20,6 +20,11 @@
         "Type": 1
       },
       {
+        "UId": "58e9c00d-3e0f-f5e4-619c-208d7f46eb6c",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtPortal7x"
+      },
+      {
         "UId": "99158cb9-b1b4-3a1d-beb0-7157e0414e73",
         "PackageVersion": "7.8.0",
         "Name": "CrtC360InUiV2",

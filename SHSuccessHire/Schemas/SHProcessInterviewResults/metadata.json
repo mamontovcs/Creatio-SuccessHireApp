@@ -1510,7 +1510,7 @@
           "DZ8": true,
           "DZ11": true,
           "DZ12": "[\"a5e7eedc-1adc-565c-e858-c9ba1c9fd940\"]",
-          "DZ13": "{\"className\":\"Terrasoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"Terrasoft.FilterGroup\\\",\\\"items\\\":{\\\"48e0c26f-954f-4aca-9b1f-980de75aa537\\\":{\\\"className\\\":\\\"Terrasoft.InFilter\\\",\\\"filterType\\\":4,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"Terrasoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"SHInterviewStatus\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"48e0c26f-954f-4aca-9b1f-980de75aa537\\\",\\\"dataValueType\\\":10,\\\"leftExpressionCaption\\\":\\\"Interview status\\\",\\\"referenceSchemaName\\\":\\\"SHInterviewStatus\\\",\\\"rightExpressions\\\":[{\\\"className\\\":\\\"Terrasoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"Terrasoft.Parameter\\\",\\\"dataValueType\\\":10,\\\"value\\\":{\\\"Name\\\":\\\"Hired\\\",\\\"Id\\\":\\\"d8019e54-ad1e-4ef9-a853-c08332dc09c3\\\",\\\"value\\\":\\\"d8019e54-ad1e-4ef9-a853-c08332dc09c3\\\",\\\"displayValue\\\":\\\"Hired\\\"}}}]}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"SHInterview\\\",\\\"key\\\":\\\"\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"48e0c26f-954f-4aca-9b1f-980de75aa537\\\":{\\\"filterType\\\":4,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"SHInterviewStatus\\\"},\\\"rightExpressions\\\":[{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":10,\\\"value\\\":\\\"d8019e54-ad1e-4ef9-a853-c08332dc09c3\\\"}}]}},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"SHInterview\\\"}\"}"
+          "DZ13": "{\"className\":\"Terrasoft.FilterGroup\",\"serializedFilterEditData\":\"{\\\"className\\\":\\\"Terrasoft.FilterGroup\\\",\\\"items\\\":{\\\"48e0c26f-954f-4aca-9b1f-980de75aa537\\\":{\\\"className\\\":\\\"Terrasoft.InFilter\\\",\\\"filterType\\\":4,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"Terrasoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"SHInterviewStatus\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"48e0c26f-954f-4aca-9b1f-980de75aa537\\\",\\\"dataValueType\\\":10,\\\"leftExpressionCaption\\\":\\\"Interview status\\\",\\\"referenceSchemaName\\\":\\\"SHInterviewStatus\\\",\\\"rightExpressions\\\":[{\\\"className\\\":\\\"Terrasoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"Terrasoft.Parameter\\\",\\\"dataValueType\\\":10,\\\"value\\\":{\\\"Name\\\":\\\"Hired\\\",\\\"Id\\\":\\\"d8019e54-ad1e-4ef9-a853-c08332dc09c3\\\",\\\"value\\\":\\\"d8019e54-ad1e-4ef9-a853-c08332dc09c3\\\",\\\"displayValue\\\":\\\"Hired\\\"}}}]},\\\"a51b29f8-7b91-4e8f-9e5d-c016996fdda9\\\":{\\\"className\\\":\\\"Terrasoft.InFilter\\\",\\\"filterType\\\":4,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"className\\\":\\\"Terrasoft.ColumnExpression\\\",\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"SHInterviewStatus\\\"},\\\"isAggregative\\\":false,\\\"key\\\":\\\"a51b29f8-7b91-4e8f-9e5d-c016996fdda9\\\",\\\"dataValueType\\\":10,\\\"leftExpressionCaption\\\":\\\"Interview status\\\",\\\"referenceSchemaName\\\":\\\"SHInterviewStatus\\\",\\\"rightExpressions\\\":[{\\\"className\\\":\\\"Terrasoft.ParameterExpression\\\",\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"className\\\":\\\"Terrasoft.Parameter\\\",\\\"dataValueType\\\":10,\\\"value\\\":{\\\"Name\\\":\\\"Not hired\\\",\\\"Id\\\":\\\"628af734-37d1-46fb-afd5-861a7eef2ae3\\\",\\\"value\\\":\\\"628af734-37d1-46fb-afd5-861a7eef2ae3\\\",\\\"displayValue\\\":\\\"Not hired\\\"}}}]}},\\\"logicalOperation\\\":1,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"SHInterview\\\",\\\"key\\\":\\\"\\\"}\",\"dataSourceFilters\":\"{\\\"items\\\":{\\\"48e0c26f-954f-4aca-9b1f-980de75aa537\\\":{\\\"filterType\\\":4,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"SHInterviewStatus\\\"},\\\"rightExpressions\\\":[{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":10,\\\"value\\\":\\\"d8019e54-ad1e-4ef9-a853-c08332dc09c3\\\"}}]},\\\"a51b29f8-7b91-4e8f-9e5d-c016996fdda9\\\":{\\\"filterType\\\":4,\\\"comparisonType\\\":3,\\\"isEnabled\\\":true,\\\"trimDateTimeParameterToDate\\\":false,\\\"leftExpression\\\":{\\\"expressionType\\\":0,\\\"columnPath\\\":\\\"SHInterviewStatus\\\"},\\\"rightExpressions\\\":[{\\\"expressionType\\\":2,\\\"parameter\\\":{\\\"dataValueType\\\":10,\\\"value\\\":\\\"628af734-37d1-46fb-afd5-861a7eef2ae3\\\"}}]}},\\\"logicalOperation\\\":1,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"SHInterview\\\"}\"}"
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaUserTask",
@@ -2145,7 +2145,7 @@
           "A4": "ebf20aec-e607-4502-9677-87411a84bb7d",
           "A5": "857128e6-ca86-46e1-828b-296570709f85",
           "IL2": "45c28890-4e18-40bf-891c-8b5986ee1a63",
-          "BL3": "575;325",
+          "BL3": "608;325",
           "BL7": "d3021ca7-7450-4678-a117-060171eb2976",
           "BL8": "ebf20aec-e607-4502-9677-87411a84bb7d",
           "BN2": "69;55",
@@ -2254,7 +2254,7 @@
           "A4": "ebf20aec-e607-4502-9677-87411a84bb7d",
           "A5": "857128e6-ca86-46e1-828b-296570709f85",
           "IL2": "45c28890-4e18-40bf-891c-8b5986ee1a63",
-          "BL3": "811;325",
+          "BL3": "761;325",
           "BL7": "40f4a8f2-edca-432d-a5ea-03e8577b4691",
           "BL8": "ebf20aec-e607-4502-9677-87411a84bb7d",
           "BN2": "69;55",
@@ -3039,7 +3039,7 @@
           "CI7": "0;-1",
           "CI8": "-1;0",
           "CI11": "509;278",
-          "CI12": "575;353",
+          "CI12": "608;353",
           "CI10": {
             "Item0": "509;353"
           },
@@ -3062,7 +3062,7 @@
           "CI6": 1,
           "CI7": "1;0",
           "CI8": "0;-1",
-          "CI11": "880;353",
+          "CI11": "830;353",
           "CI12": "920;266",
           "CI10": {
             "Item0": "920;353"
@@ -3121,8 +3121,8 @@
           "CI3": "null",
           "CI5": "FF939598",
           "CI6": 1,
-          "CI11": "644;353",
-          "CI12": "811;353"
+          "CI11": "677;353",
+          "CI12": "761;353"
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaSequenceFlow",
@@ -3174,8 +3174,8 @@
           "A3": "ebf20aec-e607-4502-9677-87411a84bb7d",
           "A4": "ebf20aec-e607-4502-9677-87411a84bb7d",
           "ParentUId": "7ad97fb7-fcd3-47a9-a276-06cec2bb3b4f",
-          "X": 2,
-          "Y": 83
+          "X": 1,
+          "Y": 86
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaLabel",

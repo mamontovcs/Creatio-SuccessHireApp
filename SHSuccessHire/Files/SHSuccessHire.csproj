@@ -224,11 +224,6 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="Terrasoft.NewtonsoftWrapper">
-			<HintPath>$(CoreLibPath)/Terrasoft.NewtonsoftWrapper.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="Terrasoft.Nui">
 			<HintPath>$(CoreLibPath)/Terrasoft.Nui.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -319,8 +314,18 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="Newtonsoft.Json">
+			<HintPath>$(CoreLibPath)/Newtonsoft.Json.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>false</Private>
+		</Reference>
 	</ItemGroup>
 	<ItemGroup Label="Package References">
+		<Reference Include="Terrasoft.Configuration">
+			<HintPath>$(RelativePkgFolderPath)/../bin/Terrasoft.Configuration.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="CrtC360InUiV2">
 			<HintPath>$(RelativePkgFolderPath)/CrtC360InUiV2/$(StandalonePackageAssemblyPath)/CrtC360InUiV2.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>

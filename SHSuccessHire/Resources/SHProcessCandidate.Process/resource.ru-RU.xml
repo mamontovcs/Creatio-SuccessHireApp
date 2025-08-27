@@ -2,6 +2,13 @@
 <Resources Culture="ru-RU">
 	<Group Type="String">
 		<Items>
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Фильтры источника данных" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.EntitySchemaUId.Caption" Value="Объект" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IgnoreErrors.Caption" Value="Продолжить выполнение при ошибках" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.Caption" Value="Если объект соответствует условиям" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.RecordColumnValues.Caption" Value="Значения полей" />
 			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Account.Caption" Value="Контрагент" />
 			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.ActivityCategory.Caption" Value="Категория" />
 			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.ActivityPriority.Caption" Value="Приоритет" />
@@ -9,6 +16,7 @@
 			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Application.Caption" Value="Заявка" />
 			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Case.Caption" Value="Обращение" />
 			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Change.Caption" Value="Изменение" />
+			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.ConfItem.Caption" Value="Конфигурационная единица" />
 			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Contact.Caption" Value="Контакт" />
 			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Contract.Caption" Value="Договор" />
 			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.CurrentActivityId.Caption" Value="Id задачи" />

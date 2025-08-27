@@ -2,6 +2,117 @@ define("SHCandidate_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 	return {
 		viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
 			{
+				"operation": "remove",
+				"name": "MainHeaderBottom"
+			},
+			{
+				"operation": "remove",
+				"name": "CardToolsContainer"
+			},
+			{
+				"operation": "remove",
+				"name": "TagSelect"
+			},
+			{
+				"operation": "remove",
+				"name": "CardToggleContainer"
+			},
+			{
+				"operation": "merge",
+				"name": "RightAreaProfileContainer",
+				"values": {
+					"columns": [
+						"minmax(64px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": "none"
+					},
+					"visible": true,
+					"alignItems": "stretch"
+				}
+			},
+			{
+				"operation": "insert",
+				"name": "FlexWarningContainer",
+				"values": {
+					"type": "crt.FlexContainer",
+					"direction": "row",
+					"items": [],
+					"fitContent": true,
+					"visible": true,
+					"color": "transparent",
+					"borderRadius": "none",
+					"padding": {
+						"top": "none",
+						"right": "none",
+						"bottom": "none",
+						"left": "none"
+					},
+					"alignItems": "center",
+					"justifyContent": "start",
+					"gap": "extra-small",
+					"wrap": "wrap"
+				},
+				"parentName": "MainHeader",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "WarningIcon",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(WarningIcon_caption)#",
+					"color": "default",
+					"disabled": false,
+					"size": "large",
+					"iconPosition": "only-icon",
+					"icon": "warning-filled-icon"
+				},
+				"parentName": "FlexWarningContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "Label_2g6p1gv",
+				"values": {
+					"type": "crt.Label",
+					"caption": "#MacrosTemplateString(#ResourceString(Label_2g6p1gv_caption)#)#",
+					"labelType": "body",
+					"labelThickness": "bold",
+					"labelEllipsis": false,
+					"labelColor": "#FF4013",
+					"labelBackgroundColor": "transparent",
+					"labelTextAlign": "center",
+					"headingLevel": "label",
+					"visible": true
+				},
+				"parentName": "FlexWarningContainer",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "Label_t0x22mw",
+				"values": {
+					"type": "crt.Label",
+					"caption": "#MacrosTemplateString(#ResourceString(Label_t0x22mw_caption)#)#",
+					"labelType": "body",
+					"labelThickness": "default",
+					"labelEllipsis": false,
+					"labelColor": "#FF4013",
+					"labelBackgroundColor": "transparent",
+					"labelTextAlign": "start",
+					"headingLevel": "label",
+					"visible": true
+				},
+				"parentName": "FlexWarningContainer",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
 				"operation": "insert",
 				"name": "Input_j4752wz",
 				"values": {
@@ -93,6 +204,72 @@ define("SHCandidate_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 			},
 			{
 				"operation": "insert",
+				"name": "NumberInput_shabbi6",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 3,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.CandidateDS_SHContactAge_g4xcvo8",
+					"labelPosition": "above",
+					"control": "$CandidateDS_SHContactAge_g4xcvo8",
+					"readonly": true,
+					"visible": true,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "GridContainer_hq3ajyu",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "ComboBox_m81r931",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 4,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.CandidateDS_SHContactCity_y27zw5p",
+					"labelPosition": "above",
+					"control": "$CandidateDS_SHContactCity_y27zw5p",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": [],
+					"readonly": true,
+					"visible": true,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "GridContainer_hq3ajyu",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_3ahs6t3",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_3ahs6t3_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "ComboBox_m81r931",
+				"propertyName": "listActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "GridContainer_8fzu3ll",
 				"values": {
 					"type": "crt.GridContainer",
@@ -137,7 +314,7 @@ define("SHCandidate_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 					"title": "#ResourceString(ExpansionPanel_d01kju3_title)#",
 					"toggleType": "default",
 					"togglePosition": "before",
-					"expanded": false,
+					"expanded": true,
 					"labelColor": "auto",
 					"fullWidthHeader": false,
 					"titleWidth": 20,
@@ -901,6 +1078,16 @@ define("SHCandidate_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 								}
 							}
 						}
+					},
+					"CandidateDS_SHContactAge_g4xcvo8": {
+						"modelConfig": {
+							"path": "CandidateDS.SHContactAge_g4xcvo8"
+						}
+					},
+					"CandidateDS_SHContactCity_y27zw5p": {
+						"modelConfig": {
+							"path": "CandidateDS.SHContactCity_y27zw5p"
+						}
 					}
 				}
 			}
@@ -927,7 +1114,17 @@ define("SHCandidate_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 										}
 									}
 								},
-								"allowCopyingRecords": false
+								"allowCopyingRecords": false,
+								"attributes": {
+									"SHContactAge_g4xcvo8": {
+										"path": "SHContact.Age",
+										"type": "ForwardReference"
+									},
+									"SHContactCity_y27zw5p": {
+										"path": "SHContact.City",
+										"type": "ForwardReference"
+									}
+								}
 							}
 						},
 						"DataGrid_m4f2ov8DS": {

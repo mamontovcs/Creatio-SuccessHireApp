@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "034fee90-131e-47b2-b994-8b03c0723afb",
+    "Name": "SHGetCandidatesFromAPIProcess",
+    "ModifiedOnUtc": "\/Date(1756309800000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Get candidates from API",
+    "DependsOn": []
+  }
+}

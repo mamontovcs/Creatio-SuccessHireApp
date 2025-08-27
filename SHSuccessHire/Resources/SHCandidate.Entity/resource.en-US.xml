@@ -5,7 +5,9 @@
 			<Item Name="Caption" Value="Candidate" />
 			<Item Name="Columns.SHCandidateStatus.Caption" Value="Candidate status" />
 			<Item Name="Columns.SHContact.Caption" Value="Contact" />
+			<Item Name="Columns.SHIsUpdateNeeded.Caption" Value="Update needed" />
 			<Item Name="Columns.SHTitle.Caption" Value="Title" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
 		</Items>
 	</Group>
 </Resources>

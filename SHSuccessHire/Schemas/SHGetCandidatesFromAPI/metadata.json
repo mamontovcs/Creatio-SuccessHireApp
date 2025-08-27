@@ -1,0 +1,19 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ProcessUserTaskSchemaManager",
+      "UId": "cd5cb7d2-b907-42a5-a72a-f9a7a4316ddc",
+      "A2": "SHGetCandidatesFromAPI",
+      "A5": "5cf29faa-5674-4758-9b3a-29c180789c55",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "857128e6-ca86-46e1-828b-296570709f85",
+      "B8": "8.3.0.3074",
+      "FJ1": [],
+      "FK7": true,
+      "FK12": "#839DC3",
+      "FK16": true
+    }
+  }
+}
