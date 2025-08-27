@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Vacancy form page" />
 			<Item Name="LocalizableStrings.addRecord_ff4vxq8_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_vt1iurc_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.ExpansionPanel_b1uqvtl_title.Value" Value="Suitable candidates" />
 			<Item Name="LocalizableStrings.FeedTabContainer_caption.Value" Value="Skills" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_vertlqf_caption.Value" Value="New" />
