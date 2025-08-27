@@ -2,13 +2,12 @@
   "Descriptor": {
     "UId": "f6851522-9556-46e7-a4a6-34a13a68b693",
     "Name": "SHCandidate",
-    "ModifiedOnUtc": "\/Date(1756315185000)\/",
+    "ModifiedOnUtc": "\/Date(1756318876000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Candidate",
-    "DependsOn": []
+    "Caption": "Candidate"
   }
 }
