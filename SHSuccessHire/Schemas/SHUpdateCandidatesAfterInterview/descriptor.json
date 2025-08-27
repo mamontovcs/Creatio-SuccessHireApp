@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "fe2cac41-a177-4c02-a80b-81b75f2eb1d5",
+    "Name": "SHUpdateCandidatesAfterInterview",
+    "ModifiedOnUtc": "\/Date(1756325426000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Update candidates after interview",
+    "DependsOn": []
+  }
+}

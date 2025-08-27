@@ -99,55 +99,12 @@ define("SHInterviews_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 			},
 			{
 				"operation": "insert",
-				"name": "ComboBox_hdsjsvr",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"colSpan": 1,
-						"row": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.PDS_SHAccount_1yj5m7r",
-					"labelPosition": "above",
-					"control": "$PDS_SHAccount_1yj5m7r",
-					"listActions": [],
-					"showValueAsLink": true,
-					"controlActions": [],
-					"visible": true,
-					"readonly": false,
-					"placeholder": "",
-					"tooltip": ""
-				},
-				"parentName": "GeneralInfoTabContainer",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "addRecord_dol2lkh",
-				"values": {
-					"code": "addRecord",
-					"type": "crt.ComboboxSearchTextAction",
-					"icon": "combobox-add-new",
-					"caption": "#ResourceString(addRecord_dol2lkh_caption)#",
-					"clicked": {
-						"request": "crt.CreateRecordFromLookupRequest",
-						"params": {}
-					}
-				},
-				"parentName": "ComboBox_hdsjsvr",
-				"propertyName": "listActions",
-				"index": 0
-			},
-			{
-				"operation": "insert",
 				"name": "ComboBox_6bpbzmu",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
 						"colSpan": 1,
-						"row": 2,
+						"row": 1,
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
@@ -164,7 +121,7 @@ define("SHInterviews_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
-				"index": 1
+				"index": 0
 			},
 			{
 				"operation": "insert",
@@ -190,7 +147,7 @@ define("SHInterviews_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 					"layoutConfig": {
 						"column": 1,
 						"colSpan": 1,
-						"row": 3,
+						"row": 2,
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
@@ -207,7 +164,7 @@ define("SHInterviews_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
-				"index": 2
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -233,7 +190,7 @@ define("SHInterviews_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 					"layoutConfig": {
 						"column": 1,
 						"colSpan": 1,
-						"row": 4,
+						"row": 3,
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
@@ -250,7 +207,7 @@ define("SHInterviews_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
-				"index": 3
+				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -277,11 +234,6 @@ define("SHInterviews_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 					"attributes"
 				],
 				"values": {
-					"PDS_SHAccount_1yj5m7r": {
-						"modelConfig": {
-							"path": "PDS.SHAccount"
-						}
-					},
 					"PDS_SHCandidate_7o4ykfp": {
 						"modelConfig": {
 							"path": "PDS.SHCandidate"
