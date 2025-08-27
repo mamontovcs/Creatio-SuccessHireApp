@@ -25,6 +25,18 @@
         "Name": "CrtC360InUiV2",
         "Type": 1,
         "InstallBehavior": 1
+      },
+      {
+        "UId": "9fc007fe-2882-0941-7cdc-e611d7fae63e",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtSupplyPayment",
+        "Type": 1
+      },
+      {
+        "UId": "da9a6a4e-a83e-ef28-3ab9-31afc7812d6d",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtInvoice",
+        "Type": 1
       }
     ]
   }

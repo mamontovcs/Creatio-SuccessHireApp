@@ -6,8 +6,10 @@
 			<Item Name="Columns.SHAccount.Caption" Value="Account" />
 			<Item Name="Columns.SHCity.Caption" Value="City" />
 			<Item Name="Columns.SHDescription.Caption" Value="Description" />
+			<Item Name="Columns.SHFee.Caption" Value="Fee" />
 			<Item Name="Columns.SHRequiredAge.Caption" Value="Age" />
 			<Item Name="Columns.SHTitle.Caption" Value="Title" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
 		</Items>
 	</Group>
 </Resources>

@@ -99,36 +99,12 @@ define("SHInterviews_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 			},
 			{
 				"operation": "insert",
-				"name": "Input_5wrtpmg",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"colSpan": 1,
-						"row": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.Input",
-					"multiline": false,
-					"label": "$Resources.Strings.PDS_SHName_vrfxdw2",
-					"labelPosition": "above",
-					"control": "$PDS_SHName_vrfxdw2",
-					"visible": true,
-					"readonly": false,
-					"placeholder": "",
-					"tooltip": ""
-				},
-				"parentName": "GeneralInfoTabContainer",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
 				"name": "ComboBox_hdsjsvr",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
 						"colSpan": 1,
-						"row": 2,
+						"row": 1,
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
@@ -145,7 +121,7 @@ define("SHInterviews_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
-				"index": 1
+				"index": 0
 			},
 			{
 				"operation": "insert",
@@ -171,7 +147,7 @@ define("SHInterviews_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 					"layoutConfig": {
 						"column": 1,
 						"colSpan": 1,
-						"row": 3,
+						"row": 2,
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
@@ -188,7 +164,7 @@ define("SHInterviews_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
-				"index": 2
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -214,7 +190,7 @@ define("SHInterviews_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 					"layoutConfig": {
 						"column": 1,
 						"colSpan": 1,
-						"row": 4,
+						"row": 3,
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
@@ -231,7 +207,7 @@ define("SHInterviews_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
-				"index": 3
+				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -257,7 +233,7 @@ define("SHInterviews_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 					"layoutConfig": {
 						"column": 1,
 						"colSpan": 1,
-						"row": 5,
+						"row": 4,
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
@@ -274,7 +250,7 @@ define("SHInterviews_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
-				"index": 4
+				"index": 3
 			},
 			{
 				"operation": "insert",
@@ -319,11 +295,6 @@ define("SHInterviews_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 					"PDS_SHVacancy_usfouqm": {
 						"modelConfig": {
 							"path": "PDS.SHVacancy"
-						}
-					},
-					"PDS_SHName_vrfxdw2": {
-						"modelConfig": {
-							"path": "PDS.SHName"
 						}
 					}
 				}

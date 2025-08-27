@@ -18,3 +18,13 @@ C:\inetpub\wwwroot\clio\creatio\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\SHS
 C:\inetpub\wwwroot\clio\creatio\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\SHSuccessHire\Files\obj\Release\SHSuccessHire.pdb
 C:\inetpub\wwwroot\clio\creatio\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\SHSuccessHire\Files\Bin\SHSuccessHire.dll
 C:\inetpub\wwwroot\clio\creatio\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\SHSuccessHire\Files\Bin\SHSuccessHire.pdb
+C:\inetpub\wwwroot\clio\semse\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\SHSuccessHire\Files\Bin\SHSuccessHire.dll
+C:\inetpub\wwwroot\clio\semse\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\SHSuccessHire\Files\Bin\SHSuccessHire.pdb
+C:\inetpub\wwwroot\clio\semse\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\SHSuccessHire\Files\obj\Release\SHSuccessHire.csproj.AssemblyReference.cache
+C:\inetpub\wwwroot\clio\semse\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\SHSuccessHire\Files\obj\Release\SHSuccessHire.GeneratedMSBuildEditorConfig.editorconfig
+C:\inetpub\wwwroot\clio\semse\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\SHSuccessHire\Files\obj\Release\SHSuccessHire.AssemblyInfoInputs.cache
+C:\inetpub\wwwroot\clio\semse\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\SHSuccessHire\Files\obj\Release\SHSuccessHire.AssemblyInfo.cs
+C:\inetpub\wwwroot\clio\semse\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\SHSuccessHire\Files\obj\Release\SHSuccessHire.csproj.CoreCompileInputs.cache
+C:\inetpub\wwwroot\clio\semse\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\SHSuccessHire\Files\obj\Release\SHSuccessHire.sourcelink.json
+C:\inetpub\wwwroot\clio\semse\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\SHSuccessHire\Files\obj\Release\SHSuccessHire.dll
+C:\inetpub\wwwroot\clio\semse\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\SHSuccessHire\Files\obj\Release\SHSuccessHire.pdb

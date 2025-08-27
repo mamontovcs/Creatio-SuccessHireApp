@@ -7,6 +7,7 @@
 			<Item Name="Columns.SHInterviewStatus.Caption" Value="Статус собеседования" />
 			<Item Name="Columns.SHName.Caption" Value="Название" />
 			<Item Name="Columns.SHVacancy.Caption" Value="Вакансия" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Пул 1" />
 		</Items>
 	</Group>
 </Resources>

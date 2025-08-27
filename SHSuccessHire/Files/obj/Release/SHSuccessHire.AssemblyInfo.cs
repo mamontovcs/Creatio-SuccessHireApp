@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SHSuccessHire")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("8.3.0.3074")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.3.0.3074+7c2a8c7752dd857deb51334746b98ce3fe5e14c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.3.0.3074+34165507ffd8385fd7445577a2831f1b13ac1e02")]
 [assembly: System.Reflection.AssemblyProductAttribute("SHSuccessHire")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SHSuccessHire")]
 [assembly: System.Reflection.AssemblyVersionAttribute("8.3.0.3074")]

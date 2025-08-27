@@ -3,7 +3,8 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Статус собеседования" />
-			<Item Name="EventsProcessSchema.Caption" Value="Базовый объект" />
+			<Item Name="Columns.SHColor.Caption" Value="Цвет" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Пул 1" />
 		</Items>
 	</Group>
 </Resources>

@@ -38,10 +38,17 @@ namespace Terrasoft.Core.Process.Configuration {
 			// Skills
 			var candidateSkills = GetCandidateSkills(candidate.PrimaryColumnValue);
 			var vacancySkills = GetVacancySkills(vacancyId);
+			// Skip if no skills
+			if (vacancySkills.Count == 0 || candidateSkills.Count == 0) {
+				return 0;
+			}
+			// Skills match
 			var matched = candidateSkills.Intersect(vacancySkills).Count();
-			var skillsScore = vacancySkills.Count > 0
-				? (decimal)matched / vacancySkills.Count * skillsWeight
-				: 0;
+			decimal ratio = (decimal)matched / vacancySkills.Count;
+			if (ratio < 0.5m) {
+				return 0;
+			}
+			var skillsScore = ratio * skillsWeight;
 			// Age
 			var candidateAge = candidateEntity.GetTypedColumnValue<int>("SHContact_Age");
 			var vacancyAge = vacancyEntity.GetTypedColumnValue<int>("SHRequiredAge");
@@ -85,6 +92,9 @@ namespace Terrasoft.Core.Process.Configuration {
 
 		private void PopulateVacancyCandidate(Entity candidateEntity) {
 			var matchScore = CalculateMatch(candidateEntity, Vacancy);
+			if (matchScore == 0) {
+				return;
+			}
 			var vacancyCandidateSchema = UserConnection.EntitySchemaManager.GetInstanceByName("SHVacancyCandidate");
 			var vacancyCandidateEntity = vacancyCandidateSchema.CreateEntity(UserConnection);
 			var entityConditions = new Dictionary<string, object>() {

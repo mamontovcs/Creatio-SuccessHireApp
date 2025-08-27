@@ -5,8 +5,10 @@
 			<Item Name="Columns.SHAccount.Caption" Value="Контрагент" />
 			<Item Name="Columns.SHCity.Caption" Value="Город" />
 			<Item Name="Columns.SHDescription.Caption" Value="Описание" />
+			<Item Name="Columns.SHFee.Caption" Value="Плата" />
 			<Item Name="Columns.SHRequiredAge.Caption" Value="Возраст" />
 			<Item Name="Columns.SHTitle.Caption" Value="Название" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Пул 1" />
 		</Items>
 	</Group>
 </Resources>

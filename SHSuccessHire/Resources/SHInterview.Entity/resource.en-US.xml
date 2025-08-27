@@ -8,6 +8,7 @@
 			<Item Name="Columns.SHInterviewStatus.Caption" Value="Interview status" />
 			<Item Name="Columns.SHName.Caption" Value="Name" />
 			<Item Name="Columns.SHVacancy.Caption" Value="Vacancy" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
 		</Items>
 	</Group>
 </Resources>
