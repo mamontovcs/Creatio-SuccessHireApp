@@ -4,6 +4,7 @@
     "Name": "SHProcessCandidate",
     "ModifiedOnUtc": "\/Date(1756326280000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Process candidate"
+    "Caption": "Process candidate",
+    "DependsOn": []
   }
 }

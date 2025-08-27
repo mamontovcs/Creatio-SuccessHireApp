@@ -4,6 +4,7 @@
     "Name": "SHProcessInterviewResults",
     "ModifiedOnUtc": "\/Date(1756326362000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Process interview results"
+    "Caption": "Process interview results",
+    "DependsOn": []
   }
 }

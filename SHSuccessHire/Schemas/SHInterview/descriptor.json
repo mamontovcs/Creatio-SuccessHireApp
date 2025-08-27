@@ -2,12 +2,13 @@
   "Descriptor": {
     "UId": "4767e2ff-b79e-472e-8d8d-e7a15c060759",
     "Name": "SHInterview",
-    "ModifiedOnUtc": "\/Date(1756326494000)\/",
+    "ModifiedOnUtc": "\/Date(1756326495000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Interview"
+    "Caption": "Interview",
+    "DependsOn": []
   }
 }
