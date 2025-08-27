@@ -1,0 +1,20 @@
+/*
+!/SHSuccessHire
+!.gitignore
+
+# Build results
+/obj
+obj/
+.vs/
+
+# Ignore all resource files
+*-??.json
+*-??.xml
+
+# But keep RU and US .json resource files
+!*-RU.json
+!*-US.json
+
+# But keep RU and US xml resource files
+!*-RU.xml
+!*-US.xml
