@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "427df485-b823-49fc-9a36-cd2dd89edd61",
     "Name": "SHCandidate_FormPageBusinessRule",
-    "ModifiedOnUtc": "\/Date(1756299615000)\/",
+    "ModifiedOnUtc": "\/Date(1756315006000)\/",
     "ManagerName": "AddonSchemaManager",
     "Caption": "Candidate form page (Business rules)",
     "DependsOn": []

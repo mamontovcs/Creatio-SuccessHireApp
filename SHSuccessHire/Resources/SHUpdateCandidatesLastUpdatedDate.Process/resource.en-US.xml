@@ -2,7 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="BaseElements.ChangeDateAndUpdateNeeded.Caption" Value="Set modified on date and no update needed" />
+			<Item Name="BaseElements.ChangeDateAndUpdateNeeded.Caption" Value="Set modified on date and avilabel status" />
 			<Item Name="BaseElements.ChangeDateAndUpdateNeeded.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
 			<Item Name="BaseElements.ChangeDateAndUpdateNeeded.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
 			<Item Name="BaseElements.ChangeDateAndUpdateNeeded.Parameters.DataSourceFilters.Caption" Value="Data source filters" />

@@ -99,19 +99,7 @@
   "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd",
   "E2": 1
 }
-+ MetaData.Schema.D2 {
-  "UId": "9d197f83-1bed-c413-cc9b-e77dd2be9011",
-  "A2": "SHIsUpdateNeeded",
-  "A3": "f6851522-9556-46e7-a4a6-34a13a68b693",
-  "A4": "f6851522-9556-46e7-a4a6-34a13a68b693",
-  "A5": "5cf29faa-5674-4758-9b3a-29c180789c55",
-  "S2": "90b65bf8-0ffc-4141-8779-2420877af907",
-  "E12": {
-    "FB1": 1,
-    "FB2": "False"
-  }
-}
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","8c418d97-9ef0-74da-6db3-117b3dc37686","31404e98-a094-566e-65b6-62eba342a1c7","708209ac-982c-3e6a-5d70-ca8da3a06060","9d197f83-1bed-c413-cc9b-e77dd2be9011"]
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","8c418d97-9ef0-74da-6db3-117b3dc37686","31404e98-a094-566e-65b6-62eba342a1c7","708209ac-982c-3e6a-5d70-ca8da3a06060"]
 = MetaData.Schema.D20.A2 "SHCandidateEvents"
 = MetaData.Schema.D36.A3 "f6851522-9556-46e7-a4a6-34a13a68b693"
 = MetaData.Schema.D36.BS1 false

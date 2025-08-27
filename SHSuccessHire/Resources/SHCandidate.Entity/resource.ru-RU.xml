@@ -4,7 +4,6 @@
 		<Items>
 			<Item Name="Columns.SHCandidateStatus.Caption" Value="Статус кандидата" />
 			<Item Name="Columns.SHContact.Caption" Value="Контакт" />
-			<Item Name="Columns.SHIsUpdateNeeded.Caption" Value="Требуется обновление" />
 			<Item Name="Columns.SHTitle.Caption" Value="Название" />
 			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Пул 1" />
 		</Items>

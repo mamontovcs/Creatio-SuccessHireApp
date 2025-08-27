@@ -546,7 +546,7 @@ define("SHVacancy_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 						"colSpan": 2,
 						"column": 1,
 						"row": 1,
-						"rowSpan": 6
+						"rowSpan": 12
 					},
 					"features": {
 						"rows": {

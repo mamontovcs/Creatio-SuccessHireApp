@@ -270,6 +270,49 @@ define("SHCandidate_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 			},
 			{
 				"operation": "insert",
+				"name": "ComboBox_1kkwr99",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 5,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.CandidateDS_SHCandidateStatus_mpeaf3n",
+					"labelPosition": "above",
+					"control": "$CandidateDS_SHCandidateStatus_mpeaf3n",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": [],
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "GridContainer_hq3ajyu",
+				"propertyName": "items",
+				"index": 5
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_hniwh6s",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_hniwh6s_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "ComboBox_1kkwr99",
+				"propertyName": "listActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "GridContainer_8fzu3ll",
 				"values": {
 					"type": "crt.GridContainer",
@@ -1087,6 +1130,11 @@ define("SHCandidate_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 					"CandidateDS_SHContactCity_y27zw5p": {
 						"modelConfig": {
 							"path": "CandidateDS.SHContactCity_y27zw5p"
+						}
+					},
+					"CandidateDS_SHCandidateStatus_mpeaf3n": {
+						"modelConfig": {
+							"path": "CandidateDS.SHCandidateStatus"
 						}
 					}
 				}

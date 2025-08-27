@@ -2,6 +2,13 @@
 <Resources Culture="ru-RU">
 	<Group Type="String">
 		<Items>
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Фильтры источника данных" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.EntitySchemaId.Caption" Value="Объект" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.FilterEntitySchemaId.Caption" Value="Объект выборки" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordAddMode.Caption" Value="Режим добавления записей" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Caption" Value="Значения полей" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordId.Caption" Value="Id созданной записи" />
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Фильтры источника данных" />
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.EntitySchemaUId.Caption" Value="Объект" />
@@ -9,47 +16,6 @@
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.Caption" Value="Если объект соответствует условиям" />
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.DisplayValue" Value="true" />
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.RecordColumnValues.Caption" Value="Значения полей" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Account.Caption" Value="Контрагент" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.ActivityCategory.Caption" Value="Категория" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.ActivityPriority.Caption" Value="Приоритет" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.ActivityResult.Caption" Value="Результат активности" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Application.Caption" Value="Заявка" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Case.Caption" Value="Обращение" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Change.Caption" Value="Изменение" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.ConfItem.Caption" Value="Конфигурационная единица" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Contact.Caption" Value="Контакт" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Contract.Caption" Value="Договор" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.CurrentActivityId.Caption" Value="Id задачи" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Document.Caption" Value="Документ" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Duration.Caption" Value="Длительность" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.DurationPeriod.Caption" Value="Длительность (период)" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Event.Caption" Value="Мероприятие" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.ExecutionContext.Caption" Value="Контекст выполнения" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.FinApplication.Caption" Value="Заявка" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Incident.Caption" Value="Инцидент" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.InformationOnStep.Caption" Value="Информация по шагу" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Invoice.Caption" Value="Счет" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.IsActivityCompleted.Caption" Value="Активность завершена" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.KnowledgeBase.Caption" Value="Статья базы знаний" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Lead.Caption" Value="Лид" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Listing.Caption" Value="Листинги" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.OmniChat.Caption" Value="Чат" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Opportunity.Caption" Value="Продажа" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Order.Caption" Value="Заказ" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.OwnerId.Caption" Value="Ответственный" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Problem.Caption" Value="Проблема" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Project.Caption" Value="Проект" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Property.Caption" Value="Объекты недвижимости" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.QueueItem.Caption" Value="Элемент очереди" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Recommendation.Caption" Value="Рекомендация" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Release.Caption" Value="Релиз" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.RemindBefore.Caption" Value="За сколько напоминать ответственному" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.RemindBeforePeriod.Caption" Value="За сколько напоминать ответственному (период)" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.Requests.Caption" Value="Заявка" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.ShowExecutionPage.Caption" Value="Показывать страницу выполнения автоматически" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.ShowInScheduler.Caption" Value="Отображать в расписании" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.StartIn.Caption" Value="Через сколько начать выполнение" />
-			<Item Name="BaseElements.CreateTaskForRecruiter.Parameters.StartInPeriod.Caption" Value="Через сколько начать выполнение (период)" />
 			<Item Name="BaseElements.MatchCandidate.Parameters.Vacancy.Caption" Value="Вакансия" />
 			<Item Name="BaseElements.ReadCandidate.Parameters.AggregationColumnName.Caption" Value="Имя колонки для агрегирующей функции" />
 			<Item Name="BaseElements.ReadCandidate.Parameters.CanReadUncommitedData.Caption" Value="Выполнять &quot;грязное чтение&quot;" />
